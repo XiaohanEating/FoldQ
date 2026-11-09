@@ -1,0 +1,1313 @@
+{
+  "raw": {
+    "exp33": {
+      "records": 48,
+      "duplicates": [],
+      "inconsistent": [],
+      "record_keys": [
+        "ci95",
+        "code",
+        "collision_detail",
+        "cond",
+        "failures",
+        "k_pct",
+        "ler",
+        "n_collisions",
+        "n_cross",
+        "n_detectors",
+        "n_error_mechanisms",
+        "n_routed",
+        "n_unique_syndromes",
+        "p",
+        "routed_edges",
+        "seconds",
+        "shots"
+      ]
+    },
+    "exp29b": {
+      "records": 40,
+      "duplicates": [],
+      "inconsistent": [],
+      "record_keys": [
+        "alpha",
+        "beta",
+        "ci95",
+        "code",
+        "cond",
+        "failures",
+        "ler",
+        "n_detectors",
+        "n_error_mechanisms",
+        "n_unique_syndromes",
+        "p",
+        "p_idle_ratio",
+        "seconds",
+        "shots",
+        "use_cross"
+      ]
+    },
+    "exp15b": {
+      "records": 105,
+      "duplicates": [],
+      "inconsistent": [],
+      "record_keys": [
+        "code",
+        "n",
+        "rng_seed",
+        "seconds",
+        "swaps_mean",
+        "swaps_std",
+        "trials"
+      ]
+    }
+  },
+  "metadata": {
+    "exp33": {
+      "top_keys": [
+        "k_pcts",
+        "l_max",
+        "alpha",
+        "routing",
+        "source_sha256_12",
+        "started"
+      ],
+      "hashes": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "3f0d1a6f5145",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "13001ee4ef8d",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "8a92591dc7d7",
+          "current": "8a92591dc7d7"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp33_workpoint_ler.py": {
+          "recorded": "7b7058b084e7",
+          "current": "7b7058b084e7"
+        },
+        "HAL/foldq/experiments/exp27_hal_routing.py": {
+          "recorded": "b39d387539a9",
+          "current": "b39d387539a9"
+        },
+        "HAL/hal/routing/straightline.py": {
+          "recorded": "d76f0af61207",
+          "current": "d76f0af61207"
+        },
+        "HAL/hal/routing/astar.py": {
+          "recorded": "bd695806d0e0",
+          "current": "bd695806d0e0"
+        },
+        "HAL/hal/routing/routing_algo.py": {
+          "recorded": "4d4843e7fe1d",
+          "current": "4d4843e7fe1d"
+        },
+        "HAL/hal/hal.py": {
+          "recorded": "e74c7e3627ab",
+          "current": "e74c7e3627ab"
+        }
+      },
+      "directory_files": [
+        "meta.json",
+        "summary.md",
+        "tasks.jsonl"
+      ]
+    },
+    "exp29b": {
+      "top_keys": [
+        "codes",
+        "fix",
+        "source_sha256_12",
+        "started"
+      ],
+      "hashes": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "3f0d1a6f5145",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "13001ee4ef8d",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "8a92591dc7d7",
+          "current": "8a92591dc7d7"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp29b_formula_recheck.py": {
+          "recorded": "0b95ba981fe3",
+          "current": "0b95ba981fe3"
+        }
+      },
+      "directory_files": [
+        "meta.json",
+        "summary.md",
+        "tasks.jsonl"
+      ]
+    },
+    "exp15b": {
+      "top_keys": [
+        "n_trials",
+        "k_pct",
+        "layout_seed",
+        "seed_rule",
+        "source_sha256_12",
+        "started"
+      ],
+      "hashes": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "13001ee4ef8d",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "3f0d1a6f5145",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/experiments/exp15b_random_seeded.py": {
+          "recorded": "60e6c1d2c6d5",
+          "current": "60e6c1d2c6d5"
+        }
+      },
+      "directory_files": [
+        "meta.json",
+        "single_round_check.json",
+        "summary.md",
+        "tasks.jsonl"
+      ]
+    }
+  },
+  "exp33": [
+    {
+      "key": [
+        "GT_96_4_12",
+        0.02
+      ],
+      "base_fail": 153,
+      "fail": 77,
+      "shots": 3000,
+      "improvement": 0.49673202614379075,
+      "p": 3.2182806806061955e-07,
+      "p_holm": 1.4804091130788499e-05,
+      "n": 192,
+      "ideal_improvement": 0.8627450980392157,
+      "retention": 0.5757575757575756
+    },
+    {
+      "key": [
+        "GT_96_4_12",
+        0.05
+      ],
+      "base_fail": 153,
+      "fail": 104,
+      "shots": 3000,
+      "improvement": 0.3202614379084967,
+      "p": 0.001783027077311963,
+      "p_holm": 0.06597200186054263,
+      "n": 192,
+      "ideal_improvement": 0.8627450980392157,
+      "retention": 0.37121212121212116
+    },
+    {
+      "key": [
+        "GT_98_6_12",
+        0.02
+      ],
+      "base_fail": 218,
+      "fail": 165,
+      "shots": 3000,
+      "improvement": 0.24311926605504597,
+      "p": 0.0051264209637541655,
+      "p_holm": 0.17429831276764163,
+      "n": 196,
+      "ideal_improvement": 0.8990825688073395,
+      "retention": 0.2704081632653062
+    },
+    {
+      "key": [
+        "GT_90_8_10",
+        0.02
+      ],
+      "base_fail": 144,
+      "fail": 129,
+      "shots": 3000,
+      "improvement": 0.10416666666666674,
+      "p": 0.3527712926865636,
+      "p_holm": 1,
+      "n": 180,
+      "ideal_improvement": 0.7916666666666666,
+      "retention": 0.13157894736842116
+    },
+    {
+      "key": [
+        "GT_98_6_12",
+        0.05
+      ],
+      "base_fail": 218,
+      "fail": 225,
+      "shots": 3000,
+      "improvement": -0.032110091743119185,
+      "p": 0.7296565822897332,
+      "p_holm": 1,
+      "n": 196,
+      "ideal_improvement": 0.8990825688073395,
+      "retention": -0.03571428571428562
+    },
+    {
+      "key": [
+        "GT_84_6_10",
+        0.02
+      ],
+      "base_fail": 140,
+      "fail": 101,
+      "shots": 3000,
+      "improvement": 0.2785714285714287,
+      "p": 0.01034028950098554,
+      "p_holm": 0.3308892640315373,
+      "n": 168,
+      "ideal_improvement": 0.7285714285714286,
+      "retention": 0.38235294117647073
+    },
+    {
+      "key": [
+        "GT_90_8_10",
+        0.05
+      ],
+      "base_fail": 144,
+      "fail": 147,
+      "shots": 3000,
+      "improvement": -0.02083333333333326,
+      "p": 0.856925321329789,
+      "p_holm": 1,
+      "n": 180,
+      "ideal_improvement": 0.7916666666666666,
+      "retention": -0.02631578947368412
+    },
+    {
+      "key": [
+        "GT_84_6_10",
+        0.05
+      ],
+      "base_fail": 140,
+      "fail": 82,
+      "shots": 3000,
+      "improvement": 0.41428571428571426,
+      "p": 7.284948804414329e-05,
+      "p_holm": 0.003278226961986448,
+      "n": 168,
+      "ideal_improvement": 0.7285714285714286,
+      "retention": 0.568627450980392
+    },
+    {
+      "key": [
+        "GT_78_4_10",
+        0.05
+      ],
+      "base_fail": 137,
+      "fail": 118,
+      "shots": 3000,
+      "improvement": 0.13868613138686137,
+      "p": 0.22400567357167545,
+      "p_holm": 1,
+      "n": 156,
+      "ideal_improvement": 0.7080291970802919,
+      "retention": 0.19587628865979392
+    },
+    {
+      "key": [
+        "GT_78_4_10",
+        0.02
+      ],
+      "base_fail": 137,
+      "fail": 132,
+      "shots": 3000,
+      "improvement": 0.03649635036496357,
+      "p": 0.7550952836291241,
+      "p_holm": 1,
+      "n": 156,
+      "ideal_improvement": 0.7080291970802919,
+      "retention": 0.05154639175257742
+    },
+    {
+      "key": [
+        "GT_72_8_8",
+        0.02
+      ],
+      "base_fail": 141,
+      "fail": 126,
+      "shots": 3000,
+      "improvement": 0.10638297872340419,
+      "p": 0.34767003262629625,
+      "p_holm": 1,
+      "n": 144,
+      "ideal_improvement": 0.7234042553191489,
+      "retention": 0.1470588235294117
+    },
+    {
+      "key": [
+        "GT_72_8_8",
+        0.05
+      ],
+      "base_fail": 141,
+      "fail": 68,
+      "shots": 3000,
+      "improvement": 0.5177304964539007,
+      "p": 2.7499052547196374e-07,
+      "p_holm": 1.2924554697182296e-05,
+      "n": 144,
+      "ideal_improvement": 0.7234042553191489,
+      "retention": 0.7156862745098039
+    },
+    {
+      "key": [
+        "GT_70_6_8",
+        0.02
+      ],
+      "base_fail": 141,
+      "fail": 103,
+      "shots": 3000,
+      "improvement": 0.2695035460992907,
+      "p": 0.013001531916842285,
+      "p_holm": 0.4030474894221108,
+      "n": 140,
+      "ideal_improvement": 0.7801418439716312,
+      "retention": 0.3454545454545454
+    },
+    {
+      "key": [
+        "GT_70_6_8",
+        0.05
+      ],
+      "base_fail": 141,
+      "fail": 85,
+      "shots": 3000,
+      "improvement": 0.3971631205673759,
+      "p": 0.00014630065867496015,
+      "p_holm": 0.006290928323023286,
+      "n": 140,
+      "ideal_improvement": 0.7801418439716312,
+      "retention": 0.5090909090909091
+    },
+    {
+      "key": [
+        "D8_3",
+        0.02
+      ],
+      "base_fail": 200,
+      "fail": 133,
+      "shots": 3000,
+      "improvement": 0.33499999999999996,
+      "p": 0.00015814947078887778,
+      "p_holm": 0.006642277773132867,
+      "n": 136,
+      "ideal_improvement": 0.635,
+      "retention": 0.5275590551181102
+    },
+    {
+      "key": [
+        "D8_3",
+        0.05
+      ],
+      "base_fail": 200,
+      "fail": 141,
+      "shots": 3000,
+      "improvement": 0.29500000000000004,
+      "p": 0.0010022865195910846,
+      "p_holm": 0.0390891742640523,
+      "n": 136,
+      "ideal_improvement": 0.635,
+      "retention": 0.46456692913385833
+    },
+    {
+      "key": [
+        "GT_66_4_10",
+        0.02
+      ],
+      "base_fail": 98,
+      "fail": 81,
+      "shots": 3000,
+      "improvement": 0.173469387755102,
+      "p": 0.19704083889157942,
+      "p_holm": 1,
+      "n": 132,
+      "ideal_improvement": 0.6530612244897959,
+      "retention": 0.265625
+    },
+    {
+      "key": [
+        "GT_62_10_6",
+        0.02
+      ],
+      "base_fail": 187,
+      "fail": 129,
+      "shots": 3000,
+      "improvement": 0.31016042780748665,
+      "p": 0.0008016510222874233,
+      "p_holm": 0.032066040891496936,
+      "n": 124,
+      "ideal_improvement": 0.6898395721925134,
+      "retention": 0.4496124031007752
+    },
+    {
+      "key": [
+        "GT_66_4_10",
+        0.05
+      ],
+      "base_fail": 98,
+      "fail": 68,
+      "shots": 3000,
+      "improvement": 0.30612244897959173,
+      "p": 0.018208733958431467,
+      "p_holm": 0.5448616441550432,
+      "n": 132,
+      "ideal_improvement": 0.6530612244897959,
+      "retention": 0.4687499999999999
+    },
+    {
+      "key": [
+        "GT_60_8_6",
+        0.05
+      ],
+      "base_fail": 93,
+      "fail": 69,
+      "shots": 3000,
+      "improvement": 0.25806451612903225,
+      "p": 0.05592735410308807,
+      "p_holm": 1,
+      "n": 120,
+      "ideal_improvement": 0.5806451612903226,
+      "retention": 0.4444444444444444
+    },
+    {
+      "key": [
+        "GT_62_10_6",
+        0.05
+      ],
+      "base_fail": 187,
+      "fail": 133,
+      "shots": 3000,
+      "improvement": 0.28877005347593576,
+      "p": 0.0019185447198369241,
+      "p_holm": 0.06906760991412927,
+      "n": 124,
+      "ideal_improvement": 0.6898395721925134,
+      "retention": 0.4186046511627906
+    },
+    {
+      "key": [
+        "GT_60_8_6",
+        0.02
+      ],
+      "base_fail": 93,
+      "fail": 75,
+      "shots": 3000,
+      "improvement": 0.19354838709677413,
+      "p": 0.1589563118794033,
+      "p_holm": 1,
+      "n": 120,
+      "ideal_improvement": 0.5806451612903226,
+      "retention": 0.3333333333333332
+    },
+    {
+      "key": [
+        "GT_56_6_8",
+        0.02
+      ],
+      "base_fail": 179,
+      "fail": 90,
+      "shots": 3000,
+      "improvement": 0.4972067039106145,
+      "p": 2.819070697813839e-08,
+      "p_holm": 1.3531539349506429e-06,
+      "n": 112,
+      "ideal_improvement": 0.7206703910614525,
+      "retention": 0.689922480620155
+    },
+    {
+      "key": [
+        "GT_56_6_8",
+        0.05
+      ],
+      "base_fail": 179,
+      "fail": 114,
+      "shots": 3000,
+      "improvement": 0.36312849162011174,
+      "p": 9.876781744003649e-05,
+      "p_holm": 0.0043457839673616055,
+      "n": 112,
+      "ideal_improvement": 0.7206703910614525,
+      "retention": 0.5038759689922481
+    },
+    {
+      "key": [
+        "GT_54_8_6",
+        0.02
+      ],
+      "base_fail": 138,
+      "fail": 164,
+      "shots": 3000,
+      "improvement": -0.18840579710144945,
+      "p": 0.1247179404900924,
+      "p_holm": 1,
+      "n": 108,
+      "ideal_improvement": 0.5434782608695652,
+      "retention": -0.346666666666667
+    },
+    {
+      "key": [
+        "D6_3",
+        0.02
+      ],
+      "base_fail": 139,
+      "fail": 140,
+      "shots": 3000,
+      "improvement": -0.007194244604316724,
+      "p": 0.9511116261135126,
+      "p_holm": 1,
+      "n": 102,
+      "ideal_improvement": 0.38129496402877694,
+      "retention": -0.018867924528302354
+    },
+    {
+      "key": [
+        "D6_3",
+        0.05
+      ],
+      "base_fail": 139,
+      "fail": 103,
+      "shots": 3000,
+      "improvement": 0.2589928057553956,
+      "p": 0.018162054805168106,
+      "p_holm": 0.5448616441550432,
+      "n": 102,
+      "ideal_improvement": 0.38129496402877694,
+      "retention": 0.6792452830188679
+    },
+    {
+      "key": [
+        "GT_54_8_6",
+        0.05
+      ],
+      "base_fail": 138,
+      "fail": 146,
+      "shots": 3000,
+      "improvement": -0.05797101449275366,
+      "p": 0.6267099749883528,
+      "p_holm": 1,
+      "n": 108,
+      "ideal_improvement": 0.5434782608695652,
+      "retention": -0.10666666666666674
+    },
+    {
+      "key": [
+        "GT_48_4_8",
+        0.02
+      ],
+      "base_fail": 187,
+      "fail": 152,
+      "shots": 3000,
+      "improvement": 0.1871657754010695,
+      "p": 0.05034406857121053,
+      "p_holm": 1,
+      "n": 96,
+      "ideal_improvement": 0.4385026737967914,
+      "retention": 0.42682926829268286
+    },
+    {
+      "key": [
+        "GT_48_4_8",
+        0.05
+      ],
+      "base_fail": 187,
+      "fail": 128,
+      "shots": 3000,
+      "improvement": 0.31550802139037437,
+      "p": 0.0006375178812607441,
+      "p_holm": 0.026138233131690506,
+      "n": 96,
+      "ideal_improvement": 0.4385026737967914,
+      "retention": 0.7195121951219513
+    },
+    {
+      "key": [
+        "GT_42_6_6",
+        0.02
+      ],
+      "base_fail": 179,
+      "fail": 154,
+      "shots": 3000,
+      "improvement": 0.13966480446927376,
+      "p": 0.15863767109636462,
+      "p_holm": 1,
+      "n": 84,
+      "ideal_improvement": 0.2737430167597765,
+      "retention": 0.5102040816326532
+    },
+    {
+      "key": [
+        "GT_42_6_6",
+        0.05
+      ],
+      "base_fail": 179,
+      "fail": 127,
+      "shots": 3000,
+      "improvement": 0.2905027932960894,
+      "p": 0.0022772156759795024,
+      "p_holm": 0.07970254865928258,
+      "n": 84,
+      "ideal_improvement": 0.2737430167597765,
+      "retention": 1.0612244897959184
+    },
+    {
+      "key": [
+        "GT_36_4_6",
+        0.05
+      ],
+      "base_fail": 156,
+      "fail": 122,
+      "shots": 3000,
+      "improvement": 0.21794871794871795,
+      "p": 0.036785812681374506,
+      "p_holm": 1,
+      "n": 72,
+      "ideal_improvement": 0.6025641025641025,
+      "retention": 0.3617021276595745
+    },
+    {
+      "key": [
+        "GT_36_4_6",
+        0.02
+      ],
+      "base_fail": 156,
+      "fail": 172,
+      "shots": 3000,
+      "improvement": -0.10256410256410264,
+      "p": 0.36354159518739415,
+      "p_holm": 1,
+      "n": 72,
+      "ideal_improvement": 0.6025641025641025,
+      "retention": -0.17021276595744694
+    },
+    {
+      "key": [
+        "D4_3",
+        0.05
+      ],
+      "base_fail": 223,
+      "fail": 163,
+      "shots": 3000,
+      "improvement": 0.26905829596412556,
+      "p": 0.0015931220727011897,
+      "p_holm": 0.06053863876264521,
+      "n": 68,
+      "ideal_improvement": 0.31390134529147984,
+      "retention": 0.8571428571428571
+    },
+    {
+      "key": [
+        "D4_3",
+        0.02
+      ],
+      "base_fail": 223,
+      "fail": 192,
+      "shots": 3000,
+      "improvement": 0.13901345291479816,
+      "p": 0.11473705508516471,
+      "p_holm": 1,
+      "n": 68,
+      "ideal_improvement": 0.31390134529147984,
+      "retention": 0.44285714285714267
+    },
+    {
+      "key": [
+        "GT_28_6_4",
+        0.02
+      ],
+      "base_fail": 150,
+      "fail": 135,
+      "shots": 3000,
+      "improvement": 0.10000000000000009,
+      "p": 0.3626070801928237,
+      "p_holm": 1,
+      "n": 56,
+      "ideal_improvement": 0.44666666666666677,
+      "retention": 0.22388059701492552
+    },
+    {
+      "key": [
+        "GT_30_4_6",
+        0.02
+      ],
+      "base_fail": 125,
+      "fail": 102,
+      "shots": 3000,
+      "improvement": 0.18399999999999994,
+      "p": 0.11963980668841916,
+      "p_holm": 1,
+      "n": 60,
+      "ideal_improvement": 0.43199999999999994,
+      "retention": 0.4259259259259259
+    },
+    {
+      "key": [
+        "GT_28_6_4",
+        0.05
+      ],
+      "base_fail": 150,
+      "fail": 161,
+      "shots": 3000,
+      "improvement": -0.07333333333333325,
+      "p": 0.5217986896653182,
+      "p_holm": 1,
+      "n": 56,
+      "ideal_improvement": 0.44666666666666677,
+      "retention": -0.16417910447761172
+    },
+    {
+      "key": [
+        "GT_30_4_6",
+        0.05
+      ],
+      "base_fail": 125,
+      "fail": 87,
+      "shots": 3000,
+      "improvement": 0.30399999999999994,
+      "p": 0.007878869868675666,
+      "p_holm": 0.26000270566629696,
+      "n": 60,
+      "ideal_improvement": 0.43199999999999994,
+      "retention": 0.7037037037037036
+    },
+    {
+      "key": [
+        "GT_18_4_4",
+        0.02
+      ],
+      "base_fail": 228,
+      "fail": 226,
+      "shots": 3000,
+      "improvement": 0.00877192982456132,
+      "p": 0.9222253033395701,
+      "p_holm": 1,
+      "n": 36,
+      "ideal_improvement": 0.2894736842105263,
+      "retention": 0.030303030303030012
+    },
+    {
+      "key": [
+        "GT_24_4_4",
+        0.02
+      ],
+      "base_fail": 117,
+      "fail": 114,
+      "shots": 3000,
+      "improvement": 0.02564102564102566,
+      "p": 0.8404651457481824,
+      "p_holm": 1,
+      "n": 48,
+      "ideal_improvement": 0.2136752136752137,
+      "retention": 0.12000000000000008
+    },
+    {
+      "key": [
+        "GT_24_4_4",
+        0.05
+      ],
+      "base_fail": 117,
+      "fail": 99,
+      "shots": 3000,
+      "improvement": 0.15384615384615385,
+      "p": 0.21224942143888648,
+      "p_holm": 1,
+      "n": 48,
+      "ideal_improvement": 0.2136752136752137,
+      "retention": 0.72
+    },
+    {
+      "key": [
+        "GT_18_4_4",
+        0.05
+      ],
+      "base_fail": 228,
+      "fail": 224,
+      "shots": 3000,
+      "improvement": 0.01754385964912275,
+      "p": 0.8448776615399399,
+      "p_holm": 1,
+      "n": 36,
+      "ideal_improvement": 0.2894736842105263,
+      "retention": 0.060606060606060407
+    },
+    {
+      "key": [
+        "GT_14_6_2",
+        0.05
+      ],
+      "base_fail": 237,
+      "fail": 230,
+      "shots": 3000,
+      "improvement": 0.029535864978903037,
+      "p": 0.7358799007724129,
+      "p_holm": 1,
+      "n": 28,
+      "ideal_improvement": -0.03375527426160341,
+      "retention": -0.8750000000000017
+    },
+    {
+      "key": [
+        "GT_14_6_2",
+        0.02
+      ],
+      "base_fail": 237,
+      "fail": 244,
+      "shots": 3000,
+      "improvement": -0.029535864978902815,
+      "p": 0.739292424150696,
+      "p_holm": 1,
+      "n": 28,
+      "ideal_improvement": -0.03375527426160341,
+      "retention": 0.8749999999999951
+    },
+    {
+      "key": [
+        "GT_12_4_2",
+        0.02
+      ],
+      "base_fail": 145,
+      "fail": 153,
+      "shots": 3000,
+      "improvement": -0.055172413793103336,
+      "p": 0.6345138324288331,
+      "p_holm": 1,
+      "n": 24,
+      "ideal_improvement": 0.13793103448275867,
+      "retention": -0.399999999999999
+    },
+    {
+      "key": [
+        "GT_12_4_2",
+        0.05
+      ],
+      "base_fail": 145,
+      "fail": 168,
+      "shots": 3000,
+      "improvement": -0.1586206896551725,
+      "p": 0.1817672855308493,
+      "p_holm": 1,
+      "n": 24,
+      "ideal_improvement": 0.13793103448275867,
+      "retention": -1.1500000000000001
+    }
+  ],
+  "exp33_summary": {
+    "0.02": {
+      "tests": 24,
+      "significant_better": 4,
+      "significant_worse": 0,
+      "negative": 5
+    },
+    "0.05": {
+      "tests": 24,
+      "significant_better": 6,
+      "significant_worse": 0,
+      "negative": 5
+    }
+  },
+  "exp29b": [
+    {
+      "key": [
+        "GT_98_6_12",
+        "a1.5_b1.5"
+      ],
+      "base_fail": 82,
+      "fail": 7,
+      "shots": 3000,
+      "improvement": 0.9146341463414634,
+      "p": 1.1507216166171059e-15,
+      "p_holm": 2.6466597182193434e-14
+    },
+    {
+      "key": [
+        "GT_98_6_12",
+        "a3_b3"
+      ],
+      "base_fail": 82,
+      "fail": 18,
+      "shots": 3000,
+      "improvement": 0.7804878048780488,
+      "p": 1.08929052044954e-10,
+      "p_holm": 2.287510092944034e-09
+    },
+    {
+      "key": [
+        "GT_98_6_12",
+        "idle0_pair"
+      ],
+      "base_fail": 1,
+      "fail": 0,
+      "shots": 3000,
+      "improvement": 1.0,
+      "p": 0.317270176047843,
+      "p_holm": 1
+    },
+    {
+      "key": [
+        "GT_90_8_10",
+        "a1.5_b1.5"
+      ],
+      "base_fail": 111,
+      "fail": 14,
+      "shots": 3000,
+      "improvement": 0.8738738738738738,
+      "p": 1.8226351307974153e-18,
+      "p_holm": 4.374324313913797e-17
+    },
+    {
+      "key": [
+        "GT_90_8_10",
+        "a3_b3"
+      ],
+      "base_fail": 111,
+      "fail": 61,
+      "shots": 3000,
+      "improvement": 0.4504504504504505,
+      "p": 0.0001095908248899648,
+      "p_holm": 0.001643862373349472
+    },
+    {
+      "key": [
+        "GT_90_8_10",
+        "idle0_pair"
+      ],
+      "base_fail": 1,
+      "fail": 0,
+      "shots": 3000,
+      "improvement": 1.0,
+      "p": 0.317270176047843,
+      "p_holm": 1
+    },
+    {
+      "key": [
+        "GT_78_4_10",
+        "a1.5_b1.5"
+      ],
+      "base_fail": 88,
+      "fail": 22,
+      "shots": 3000,
+      "improvement": 0.75,
+      "p": 2.1344311330782035e-10,
+      "p_holm": 4.268862266156407e-09
+    },
+    {
+      "key": [
+        "GT_78_4_10",
+        "a3_b3"
+      ],
+      "base_fail": 88,
+      "fail": 32,
+      "shots": 3000,
+      "improvement": 0.6363636363636364,
+      "p": 2.417563881119019e-07,
+      "p_holm": 4.351614986014234e-06
+    },
+    {
+      "key": [
+        "GT_78_4_10",
+        "idle0_pair"
+      ],
+      "base_fail": 0,
+      "fail": 0,
+      "shots": 3000,
+      "improvement": null,
+      "p": 1.0,
+      "p_holm": 1
+    },
+    {
+      "key": [
+        "GT_24_4_4",
+        "a1.5_b1.5"
+      ],
+      "base_fail": 149,
+      "fail": 126,
+      "shots": 3000,
+      "improvement": 0.15436241610738244,
+      "p": 0.15564478336345622,
+      "p_holm": 1
+    },
+    {
+      "key": [
+        "GT_24_4_4",
+        "a3_b3"
+      ],
+      "base_fail": 149,
+      "fail": 201,
+      "shots": 3000,
+      "improvement": -0.3489932885906042,
+      "p": 0.004179126667116425,
+      "p_holm": 0.05850777333962995
+    },
+    {
+      "key": [
+        "GT_24_4_4",
+        "idle0_pair"
+      ],
+      "base_fail": 42,
+      "fail": 27,
+      "shots": 3000,
+      "improvement": 0.3571428571428572,
+      "p": 0.06933026824699642,
+      "p_holm": 0.7626329507169607
+    },
+    {
+      "key": [
+        "GT_12_4_2",
+        "a1.5_b1.5"
+      ],
+      "base_fail": 162,
+      "fail": 158,
+      "shots": 3000,
+      "improvement": 0.024691358024691357,
+      "p": 0.8182322024923407,
+      "p_holm": 1
+    },
+    {
+      "key": [
+        "GT_12_4_2",
+        "a3_b3"
+      ],
+      "base_fail": 162,
+      "fail": 161,
+      "shots": 3000,
+      "improvement": 0.006172839506172756,
+      "p": 0.9543838964549186,
+      "p_holm": 1
+    },
+    {
+      "key": [
+        "GT_12_4_2",
+        "idle0_pair"
+      ],
+      "base_fail": 69,
+      "fail": 54,
+      "shots": 3000,
+      "improvement": 0.21739130434782616,
+      "p": 0.17175558562917703,
+      "p_holm": 1
+    },
+    {
+      "key": [
+        "D8_3",
+        "a1.5_b1.5"
+      ],
+      "base_fail": 180,
+      "fail": 62,
+      "shots": 3000,
+      "improvement": 0.6555555555555556,
+      "p": 9.703186557740437e-15,
+      "p_holm": 2.1347010427028963e-13
+    },
+    {
+      "key": [
+        "D8_3",
+        "a3_b3"
+      ],
+      "base_fail": 180,
+      "fail": 104,
+      "shots": 3000,
+      "improvement": 0.4222222222222223,
+      "p": 3.829152455954642e-06,
+      "p_holm": 6.126643929527428e-05
+    },
+    {
+      "key": [
+        "D8_3",
+        "idle0_pair"
+      ],
+      "base_fail": 4,
+      "fail": 2,
+      "shots": 3000,
+      "improvement": 0.5,
+      "p": 0.4139826426753619,
+      "p_holm": 1
+    },
+    {
+      "key": [
+        "D6_3",
+        "a1.5_b1.5"
+      ],
+      "base_fail": 95,
+      "fail": 38,
+      "shots": 3000,
+      "improvement": 0.6000000000000001,
+      "p": 5.785763869389768e-07,
+      "p_holm": 9.835798577962606e-06
+    },
+    {
+      "key": [
+        "D6_3",
+        "a3_b3"
+      ],
+      "base_fail": 95,
+      "fail": 73,
+      "shots": 3000,
+      "improvement": 0.23157894736842122,
+      "p": 0.08514009641426307,
+      "p_holm": 0.8514009641426307
+    },
+    {
+      "key": [
+        "D6_3",
+        "idle0_pair"
+      ],
+      "base_fail": 5,
+      "fail": 8,
+      "shots": 3000,
+      "improvement": -0.5999999999999999,
+      "p": 0.40487115252208183,
+      "p_holm": 1
+    },
+    {
+      "key": [
+        "D4_3",
+        "a1.5_b1.5"
+      ],
+      "base_fail": 226,
+      "fail": 127,
+      "shots": 3000,
+      "improvement": 0.43805309734513276,
+      "p": 5.5902730467620627e-08,
+      "p_holm": 1.0621518788847919e-06
+    },
+    {
+      "key": [
+        "D4_3",
+        "a3_b3"
+      ],
+      "base_fail": 226,
+      "fail": 181,
+      "shots": 3000,
+      "improvement": 0.1991150442477876,
+      "p": 0.020871507797827732,
+      "p_holm": 0.2504580935739328
+    },
+    {
+      "key": [
+        "D4_3",
+        "idle0_pair"
+      ],
+      "base_fail": 31,
+      "fail": 15,
+      "shots": 3000,
+      "improvement": 0.5161290322580645,
+      "p": 0.017876477464025528,
+      "p_holm": 0.23239420703233188
+    }
+  ],
+  "ablations": [
+    {
+      "code": "GT_98_6_12",
+      "with_idle": 0.9146341463414634,
+      "idle0_failures": [
+        1,
+        0
+      ],
+      "without_idle": 1.0
+    },
+    {
+      "code": "GT_90_8_10",
+      "with_idle": 0.8738738738738738,
+      "idle0_failures": [
+        1,
+        0
+      ],
+      "without_idle": 1.0
+    },
+    {
+      "code": "GT_78_4_10",
+      "with_idle": 0.75,
+      "idle0_failures": [
+        0,
+        0
+      ],
+      "without_idle": null
+    },
+    {
+      "code": "GT_24_4_4",
+      "with_idle": 0.15436241610738244,
+      "idle0_failures": [
+        42,
+        27
+      ],
+      "without_idle": 0.3571428571428572
+    },
+    {
+      "code": "GT_12_4_2",
+      "with_idle": 0.024691358024691357,
+      "idle0_failures": [
+        69,
+        54
+      ],
+      "without_idle": 0.21739130434782616
+    },
+    {
+      "code": "D8_3",
+      "with_idle": 0.6555555555555556,
+      "idle0_failures": [
+        4,
+        2
+      ],
+      "without_idle": 0.5
+    },
+    {
+      "code": "D6_3",
+      "with_idle": 0.6000000000000001,
+      "idle0_failures": [
+        5,
+        8
+      ],
+      "without_idle": -0.5999999999999999
+    },
+    {
+      "code": "D4_3",
+      "with_idle": 0.43805309734513276,
+      "idle0_failures": [
+        31,
+        15
+      ],
+      "without_idle": 0.5161290322580645
+    }
+  ],
+  "exp15b_trials": 1050
+}

@@ -1,0 +1,14 @@
+{
+ "n_trials": 10,
+ "k_pct": 0.1,
+ "layout_seed": 0,
+ "seed_rule": "sha256(code_name)[:8] as int, sequential draws",
+ "source_sha256_12": {
+  "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+  "foldq/optimization/crosslayer_select.py": "13001ee4ef8d",
+  "foldq/optimization/layouts.py": "81bcc2fa2930",
+  "foldq/routing/router.py": "3f0d1a6f5145",
+  "foldq/experiments/exp15b_random_seeded.py": "60e6c1d2c6d5"
+ },
+ "started": "2026-11-07 08:57:00"
+}

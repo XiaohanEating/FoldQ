@@ -1,0 +1,99 @@
+{
+  "validated_at": "2026-11-09T16:48:00.133340+08:00",
+  "status": "passed",
+  "scope": "Core code and numerical data; manuscript, figures, and figure renderers excluded.",
+  "environment": {
+    "python": "3.12.11",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.6",
+      "scipy": "1.16.2",
+      "networkx": "3.5",
+      "stim": "1.15.0",
+      "qiskit": "2.6.1",
+      "pymatching": "2.3.0",
+      "ldpc": "2.2.8",
+      "qldpc": "0.0.28",
+      "bposd": "2.1",
+      "galois": "0.4.6",
+      "pandas": "2.3.2",
+      "matplotlib": "3.10.6",
+      "sympy": "1.14.0",
+      "tqdm": "4.67.1",
+      "netgraph": "4.13.2",
+      "python-louvain": "0.16",
+      "psutil": "7.1.0",
+      "pytest": "8.4.2",
+      "seaborn": "0.13.2"
+    }
+  },
+  "tests": {
+    "command": "python -m pytest foldq/tests -q -p no:cacheprovider",
+    "passed": 59,
+    "seconds": 11.5
+  },
+  "checks": {
+    "status": "passed",
+    "files_verified": 183,
+    "raw_ci_recomputed": 576,
+    "holm_families": [
+      24,
+      48,
+      72,
+      4,
+      24
+    ],
+    "significant_improvements": {
+      "selected_24": 21,
+      "accepted_k02": 4,
+      "accepted_k05": 6,
+      "fixed_noise_72": 46,
+      "sabre_4": 3
+    },
+    "timing_significant_improvements": {
+      "a1.5_b1.5": 6,
+      "a3_b3": 4
+    },
+    "hardware_costs_recomputed": 48,
+    "budget_conditions": 96,
+    "saved_random_edge_sets": 1050,
+    "new_monte_carlo_sampling": false
+  },
+  "tables_byte_identical": [
+    "architecture_depth_105.csv",
+    "budget_aggregate.csv",
+    "budget_per_code.csv",
+    "main_ler72.csv",
+    "main_workpoints4.csv",
+    "physical_ler_all48.csv",
+    "selection_105.csv",
+    "workpoint_cases.csv"
+  ],
+  "cost_table_byte_identical": true,
+  "accepted_graphs_freshly_replayed": 48,
+  "budget_conditions_freshly_replayed": 96,
+  "random_smoke_codes": 3,
+  "random_smoke_edge_sets": 30,
+  "previous_checks_on_unchanged_inputs": {
+    "saved_random_sets_recompiled": 1050,
+    "sampling": {
+      "code": "D4_3",
+      "budget": 0.05,
+      "shots": 3000,
+      "failures": 163
+    },
+    "note": "Checked before this directory-only release correction; not repeated in full."
+  },
+  "entry_point_sha256": {
+    "tools/artifact/__init__.py": "717b51bf5e5a4b35d90fc6b77c91a101c407d61deb84bb892b198eb1747fa5dc",
+    "tools/artifact/__main__.py": "b4747c41b3c989d45cf36e3dc8a77bb5cd8a8f0cc81cab8482a03a087c37696d",
+    "tools/artifact/export_tables.py": "466e7f7e7b68b8ec7c20d4b8a06f9856299d772803760d9849bb10014d6e6658",
+    "tools/artifact/verify.py": "de115e92752dd00be2f8bd46b3217c58d940a265ebb6960aed9742b077281307"
+  },
+  "original_numerical_records_modified": false,
+  "excluded_file_check": {
+    "paper_directory_present": false,
+    "manuscript_or_image_files_present": false,
+    "source_snapshot_entries_checked": 19
+  }
+}

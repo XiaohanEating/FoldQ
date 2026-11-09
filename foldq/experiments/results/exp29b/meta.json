@@ -1,0 +1,23 @@
+{
+ "codes": [
+  "GT_12_4_2",
+  "GT_24_4_4",
+  "D4_3",
+  "D6_3",
+  "D8_3",
+  "GT_78_4_10",
+  "GT_90_8_10",
+  "GT_98_6_12"
+ ],
+ "fix": "composite-channel idle merge + matched idle0 denominator",
+ "source_sha256_12": {
+  "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+  "foldq/routing/router.py": "3f0d1a6f5145",
+  "foldq/optimization/crosslayer_select.py": "13001ee4ef8d",
+  "foldq/optimization/layouts.py": "81bcc2fa2930",
+  "foldq/simulation/memory_circuit.py": "8a92591dc7d7",
+  "foldq/simulation/bposd.py": "f046fadb9b86",
+  "foldq/experiments/exp29b_formula_recheck.py": "0b95ba981fe3"
+ },
+ "started": "2026-11-07 08:56:31"
+}

@@ -1,0 +1,25 @@
+{
+  "python": "3.12.11",
+  "platform": "Windows",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.16.2",
+    "networkx": "3.5",
+    "stim": "1.15.0",
+    "qiskit": "2.6.1",
+    "pymatching": "2.3.0",
+    "ldpc": "2.2.8",
+    "qldpc": "0.0.28",
+    "bposd": "2.1",
+    "galois": "0.4.6",
+    "pandas": "2.3.2",
+    "matplotlib": "3.10.6",
+    "sympy": "1.14.0",
+    "tqdm": "4.67.1",
+    "netgraph": "4.13.2",
+    "python-louvain": "0.16",
+    "psutil": "7.1.0",
+    "pytest": "8.4.2",
+    "seaborn": "0.13.2"
+  }
+}

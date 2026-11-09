@@ -1,0 +1,5821 @@
+{
+  "audited_at": "2026-11-06T22:14:23.681068+08:00",
+  "environment": {
+    "python": "3.12.11",
+    "executable": "<original Python 3.12.11 hal environment>",
+    "packages": {
+      "numpy": "2.2.6",
+      "scipy": "1.16.2",
+      "stim": "1.15.0",
+      "qiskit": "2.6.1",
+      "qldpc": "0.0.28",
+      "ldpc": "2.2.8",
+      "networkx": "3.5",
+      "pymatching": "2.3.0",
+      "pytest": "8.4.2"
+    }
+  },
+  "raw_checks": {
+    "exp25": {
+      "records": 312,
+      "ler_records": 288,
+      "duplicate_keys": 0,
+      "inconsistent_ler_or_ci": []
+    },
+    "exp26/fixed_p": {
+      "records": 144,
+      "ler_records": 144,
+      "duplicate_keys": 0,
+      "inconsistent_ler_or_ci": []
+    },
+    "exp26/x_detectors": {
+      "records": 47,
+      "ler_records": 47,
+      "duplicate_keys": 0,
+      "inconsistent_ler_or_ci": []
+    },
+    "exp28b": {
+      "records": 48,
+      "ler_records": 48,
+      "duplicate_keys": 0,
+      "inconsistent_ler_or_ci": []
+    },
+    "exp29": {
+      "records": 256,
+      "ler_records": 248,
+      "duplicate_keys": 0,
+      "inconsistent_ler_or_ci": []
+    },
+    "exp30": {
+      "records": 32,
+      "ler_records": 32,
+      "duplicate_keys": 0,
+      "inconsistent_ler_or_ci": []
+    },
+    "exp31b": {
+      "records": 9,
+      "ler_records": 6,
+      "duplicate_keys": 0,
+      "inconsistent_ler_or_ci": []
+    },
+    "exp32": {
+      "records": 8,
+      "ler_records": 8,
+      "duplicate_keys": 0,
+      "inconsistent_ler_or_ci": []
+    }
+  },
+  "comparisons": {
+    "exp25:base:alpha_1.5": {
+      "tests": 24,
+      "significant_improvement": 21,
+      "significant_worsening": 0,
+      "negative_direction": 0,
+      "rows": [
+        {
+          "code": "GT_98_6_12",
+          "condition": "alpha_1.5",
+          "base_failures": 222,
+          "base_shots": 3000,
+          "treatment_failures": 19,
+          "treatment_shots": 3000,
+          "improvement": 0.9144144144144144,
+          "p_raw": 1.2301406121478066e-40,
+          "p_holm": 2.9523374691547356e-39
+        },
+        {
+          "code": "GT_96_4_12",
+          "condition": "alpha_1.5",
+          "base_failures": 136,
+          "base_shots": 3000,
+          "treatment_failures": 23,
+          "treatment_shots": 3000,
+          "improvement": 0.8308823529411765,
+          "p_raw": 1.0597667524437164e-19,
+          "p_holm": 2.1195335048874328e-18
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "alpha_1.5",
+          "base_failures": 174,
+          "base_shots": 3000,
+          "treatment_failures": 31,
+          "treatment_shots": 3000,
+          "improvement": 0.8218390804597702,
+          "p_raw": 2.9098313470745866e-24,
+          "p_holm": 6.40162896356409e-23
+        },
+        {
+          "code": "GT_84_6_10",
+          "condition": "alpha_1.5",
+          "base_failures": 135,
+          "base_shots": 3000,
+          "treatment_failures": 27,
+          "treatment_shots": 3000,
+          "improvement": 0.8,
+          "p_raw": 7.819841387365999e-18,
+          "p_holm": 1.4075714497258799e-16
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "alpha_1.5",
+          "base_failures": 171,
+          "base_shots": 3000,
+          "treatment_failures": 22,
+          "treatment_shots": 3000,
+          "improvement": 0.8713450292397661,
+          "p_raw": 1.1271556610970464e-27,
+          "p_holm": 2.5924580205232066e-26
+        },
+        {
+          "code": "GT_72_8_8",
+          "condition": "alpha_1.5",
+          "base_failures": 134,
+          "base_shots": 3000,
+          "treatment_failures": 24,
+          "treatment_shots": 3000,
+          "improvement": 0.8208955223880597,
+          "p_raw": 7.401796843867941e-19,
+          "p_holm": 1.406341400334909e-17
+        },
+        {
+          "code": "GT_70_6_8",
+          "condition": "alpha_1.5",
+          "base_failures": 147,
+          "base_shots": 3000,
+          "treatment_failures": 27,
+          "treatment_shots": 3000,
+          "improvement": 0.8163265306122449,
+          "p_raw": 2.6556120382077144e-20,
+          "p_holm": 5.5767852802362e-19
+        },
+        {
+          "code": "D8_3",
+          "condition": "alpha_1.5",
+          "base_failures": 192,
+          "base_shots": 3000,
+          "treatment_failures": 107,
+          "treatment_shots": 3000,
+          "improvement": 0.44270833333333337,
+          "p_raw": 4.584431845456841e-07,
+          "p_holm": 5.042875030002526e-06
+        },
+        {
+          "code": "GT_66_4_10",
+          "condition": "alpha_1.5",
+          "base_failures": 130,
+          "base_shots": 3000,
+          "treatment_failures": 35,
+          "treatment_shots": 3000,
+          "improvement": 0.7307692307692308,
+          "p_raw": 6.402360055688419e-14,
+          "p_holm": 9.603540083532627e-13
+        },
+        {
+          "code": "GT_62_10_6",
+          "condition": "alpha_1.5",
+          "base_failures": 205,
+          "base_shots": 3000,
+          "treatment_failures": 75,
+          "treatment_shots": 3000,
+          "improvement": 0.6341463414634145,
+          "p_raw": 1.7645415974290045e-15,
+          "p_holm": 2.9997207156293076e-14
+        },
+        {
+          "code": "GT_60_8_6",
+          "condition": "alpha_1.5",
+          "base_failures": 107,
+          "base_shots": 3000,
+          "treatment_failures": 36,
+          "treatment_shots": 3000,
+          "improvement": 0.6635514018691588,
+          "p_raw": 1.862551951518001e-09,
+          "p_holm": 2.4213175369734013e-08
+        },
+        {
+          "code": "GT_56_6_8",
+          "condition": "alpha_1.5",
+          "base_failures": 187,
+          "base_shots": 3000,
+          "treatment_failures": 66,
+          "treatment_shots": 3000,
+          "improvement": 0.6470588235294118,
+          "p_raw": 7.674122867775355e-15,
+          "p_holm": 1.2278596588440568e-13
+        },
+        {
+          "code": "GT_54_8_6",
+          "condition": "alpha_1.5",
+          "base_failures": 172,
+          "base_shots": 3000,
+          "treatment_failures": 63,
+          "treatment_shots": 3000,
+          "improvement": 0.6337209302325582,
+          "p_raw": 4.050904520481417e-13,
+          "p_holm": 5.671266328673984e-12
+        },
+        {
+          "code": "D6_3",
+          "condition": "alpha_1.5",
+          "base_failures": 142,
+          "base_shots": 3000,
+          "treatment_failures": 67,
+          "treatment_shots": 3000,
+          "improvement": 0.528169014084507,
+          "p_raw": 1.2872997920885894e-07,
+          "p_holm": 1.5447597505063073e-06
+        },
+        {
+          "code": "GT_48_4_8",
+          "condition": "alpha_1.5",
+          "base_failures": 160,
+          "base_shots": 3000,
+          "treatment_failures": 112,
+          "treatment_shots": 3000,
+          "improvement": 0.29999999999999993,
+          "p_raw": 0.00289447219316802,
+          "p_holm": 0.0144723609658401
+        },
+        {
+          "code": "GT_42_6_6",
+          "condition": "alpha_1.5",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 126,
+          "treatment_shots": 3000,
+          "improvement": 0.2544378698224852,
+          "p_raw": 0.010244387933457139,
+          "p_holm": 0.040977551733828554
+        },
+        {
+          "code": "GT_36_4_6",
+          "condition": "alpha_1.5",
+          "base_failures": 155,
+          "base_shots": 3000,
+          "treatment_failures": 95,
+          "treatment_shots": 3000,
+          "improvement": 0.3870967741935484,
+          "p_raw": 0.00010603526063318623,
+          "p_holm": 0.0010603526063318622
+        },
+        {
+          "code": "D4_3",
+          "condition": "alpha_1.5",
+          "base_failures": 212,
+          "base_shots": 3000,
+          "treatment_failures": 152,
+          "treatment_shots": 3000,
+          "improvement": 0.28301886792452835,
+          "p_raw": 0.0011752463596979275,
+          "p_holm": 0.007524103024669836
+        },
+        {
+          "code": "GT_30_4_6",
+          "condition": "alpha_1.5",
+          "base_failures": 120,
+          "base_shots": 3000,
+          "treatment_failures": 71,
+          "treatment_shots": 3000,
+          "improvement": 0.4083333333333333,
+          "p_raw": 0.00031416328228388714,
+          "p_holm": 0.002513306258271097
+        },
+        {
+          "code": "GT_28_6_4",
+          "condition": "alpha_1.5",
+          "base_failures": 182,
+          "base_shots": 3000,
+          "treatment_failures": 117,
+          "treatment_shots": 3000,
+          "improvement": 0.3571428571428572,
+          "p_raw": 0.00011508671747969156,
+          "p_holm": 0.0010603526063318622
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "alpha_1.5",
+          "base_failures": 125,
+          "base_shots": 3000,
+          "treatment_failures": 94,
+          "treatment_shots": 3000,
+          "improvement": 0.248,
+          "p_raw": 0.03283499358516698,
+          "p_holm": 0.09850498075550093
+        },
+        {
+          "code": "GT_18_4_4",
+          "condition": "alpha_1.5",
+          "base_failures": 209,
+          "base_shots": 3000,
+          "treatment_failures": 149,
+          "treatment_shots": 3000,
+          "improvement": 0.2870813397129187,
+          "p_raw": 0.0010748718606671194,
+          "p_holm": 0.007524103024669836
+        },
+        {
+          "code": "GT_14_6_2",
+          "condition": "alpha_1.5",
+          "base_failures": 241,
+          "base_shots": 3000,
+          "treatment_failures": 235,
+          "treatment_shots": 3000,
+          "improvement": 0.024896265560165998,
+          "p_raw": 0.7744083160076282,
+          "p_holm": 0.883975693125326
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "alpha_1.5",
+          "base_failures": 157,
+          "base_shots": 3000,
+          "treatment_failures": 144,
+          "treatment_shots": 3000,
+          "improvement": 0.08280254777070062,
+          "p_raw": 0.441987846562663,
+          "p_holm": 0.883975693125326
+        }
+      ]
+    },
+    "exp28b:base:foldq_l6": {
+      "tests": 24,
+      "significant_improvement": 21,
+      "significant_worsening": 0,
+      "negative_direction": 1,
+      "rows": [
+        {
+          "code": "GT_98_6_12",
+          "condition": "foldq_l6",
+          "base_failures": 218,
+          "base_shots": 3000,
+          "treatment_failures": 22,
+          "treatment_shots": 3000,
+          "improvement": 0.8990825688073395,
+          "p_raw": 3.8200759412587667e-38,
+          "p_holm": 9.168182259021041e-37
+        },
+        {
+          "code": "GT_96_4_12",
+          "condition": "foldq_l6",
+          "base_failures": 153,
+          "base_shots": 3000,
+          "treatment_failures": 21,
+          "treatment_shots": 3000,
+          "improvement": 0.8627450980392157,
+          "p_raw": 3.140741723302798e-24,
+          "p_holm": 7.223705963596435e-23
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "foldq_l6",
+          "base_failures": 144,
+          "base_shots": 3000,
+          "treatment_failures": 30,
+          "treatment_shots": 3000,
+          "improvement": 0.7916666666666666,
+          "p_raw": 1.7799401686782333e-18,
+          "p_holm": 3.915868371092113e-17
+        },
+        {
+          "code": "GT_84_6_10",
+          "condition": "foldq_l6",
+          "base_failures": 140,
+          "base_shots": 3000,
+          "treatment_failures": 38,
+          "treatment_shots": 3000,
+          "improvement": 0.7285714285714286,
+          "p_raw": 8.411979903944659e-15,
+          "p_holm": 1.430036583670592e-13
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "foldq_l6",
+          "base_failures": 137,
+          "base_shots": 3000,
+          "treatment_failures": 40,
+          "treatment_shots": 3000,
+          "improvement": 0.7080291970802919,
+          "p_raw": 1.3521605273821549e-13,
+          "p_holm": 2.0282407910732323e-12
+        },
+        {
+          "code": "GT_72_8_8",
+          "condition": "foldq_l6",
+          "base_failures": 141,
+          "base_shots": 3000,
+          "treatment_failures": 39,
+          "treatment_shots": 3000,
+          "improvement": 0.7234042553191489,
+          "p_raw": 1.1696813918513423e-14,
+          "p_holm": 1.8714902269621476e-13
+        },
+        {
+          "code": "GT_70_6_8",
+          "condition": "foldq_l6",
+          "base_failures": 141,
+          "base_shots": 3000,
+          "treatment_failures": 31,
+          "treatment_shots": 3000,
+          "improvement": 0.7801418439716312,
+          "p_raw": 1.7350016243050294e-17,
+          "p_holm": 3.4700032486100587e-16
+        },
+        {
+          "code": "D8_3",
+          "condition": "foldq_l6",
+          "base_failures": 200,
+          "base_shots": 3000,
+          "treatment_failures": 73,
+          "treatment_shots": 3000,
+          "improvement": 0.635,
+          "p_raw": 3.619198211790434e-15,
+          "p_holm": 6.514556781222781e-14
+        },
+        {
+          "code": "GT_66_4_10",
+          "condition": "foldq_l6",
+          "base_failures": 98,
+          "base_shots": 3000,
+          "treatment_failures": 34,
+          "treatment_shots": 3000,
+          "improvement": 0.6530612244897959,
+          "p_raw": 1.7731704853328987e-08,
+          "p_holm": 2.3051216309327683e-07
+        },
+        {
+          "code": "GT_62_10_6",
+          "condition": "foldq_l6",
+          "base_failures": 187,
+          "base_shots": 3000,
+          "treatment_failures": 58,
+          "treatment_shots": 3000,
+          "improvement": 0.6898395721925134,
+          "p_raw": 3.925373001542785e-17,
+          "p_holm": 7.458208702931291e-16
+        },
+        {
+          "code": "GT_60_8_6",
+          "condition": "foldq_l6",
+          "base_failures": 93,
+          "base_shots": 3000,
+          "treatment_failures": 39,
+          "treatment_shots": 3000,
+          "improvement": 0.5806451612903226,
+          "p_raw": 2.0075104343097064e-06,
+          "p_holm": 2.0075104343097063e-05
+        },
+        {
+          "code": "GT_56_6_8",
+          "condition": "foldq_l6",
+          "base_failures": 179,
+          "base_shots": 3000,
+          "treatment_failures": 50,
+          "treatment_shots": 3000,
+          "improvement": 0.7206703910614525,
+          "p_raw": 3.559673069437517e-18,
+          "p_holm": 7.475313445818786e-17
+        },
+        {
+          "code": "GT_54_8_6",
+          "condition": "foldq_l6",
+          "base_failures": 138,
+          "base_shots": 3000,
+          "treatment_failures": 63,
+          "treatment_shots": 3000,
+          "improvement": 0.5434782608695652,
+          "p_raw": 7.407669538430233e-08,
+          "p_holm": 8.88920344611628e-07
+        },
+        {
+          "code": "D6_3",
+          "condition": "foldq_l6",
+          "base_failures": 139,
+          "base_shots": 3000,
+          "treatment_failures": 86,
+          "treatment_shots": 3000,
+          "improvement": 0.38129496402877694,
+          "p_raw": 0.0003163781220418628,
+          "p_holm": 0.0018982687322511768
+        },
+        {
+          "code": "GT_48_4_8",
+          "condition": "foldq_l6",
+          "base_failures": 187,
+          "base_shots": 3000,
+          "treatment_failures": 105,
+          "treatment_shots": 3000,
+          "improvement": 0.4385026737967914,
+          "p_raw": 8.658947203458688e-07,
+          "p_holm": 9.524841923804557e-06
+        },
+        {
+          "code": "GT_42_6_6",
+          "condition": "foldq_l6",
+          "base_failures": 179,
+          "base_shots": 3000,
+          "treatment_failures": 130,
+          "treatment_shots": 3000,
+          "improvement": 0.2737430167597765,
+          "p_raw": 0.004207271232977855,
+          "p_holm": 0.01682908493191142
+        },
+        {
+          "code": "GT_36_4_6",
+          "condition": "foldq_l6",
+          "base_failures": 156,
+          "base_shots": 3000,
+          "treatment_failures": 62,
+          "treatment_shots": 3000,
+          "improvement": 0.6025641025641025,
+          "p_raw": 8.850175542401156e-11,
+          "p_holm": 1.2390245759361618e-09
+        },
+        {
+          "code": "D4_3",
+          "condition": "foldq_l6",
+          "base_failures": 223,
+          "base_shots": 3000,
+          "treatment_failures": 153,
+          "treatment_shots": 3000,
+          "improvement": 0.31390134529147984,
+          "p_raw": 0.00019247245491502555,
+          "p_holm": 0.001347307184405179
+        },
+        {
+          "code": "GT_30_4_6",
+          "condition": "foldq_l6",
+          "base_failures": 125,
+          "base_shots": 3000,
+          "treatment_failures": 71,
+          "treatment_shots": 3000,
+          "improvement": 0.43199999999999994,
+          "p_raw": 8.791561576004915e-05,
+          "p_holm": 0.0007033249260803932
+        },
+        {
+          "code": "GT_28_6_4",
+          "condition": "foldq_l6",
+          "base_failures": 150,
+          "base_shots": 3000,
+          "treatment_failures": 83,
+          "treatment_shots": 3000,
+          "improvement": 0.44666666666666677,
+          "p_raw": 7.5661268473286504e-06,
+          "p_holm": 6.809514162595786e-05
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "foldq_l6",
+          "base_failures": 117,
+          "base_shots": 3000,
+          "treatment_failures": 92,
+          "treatment_shots": 3000,
+          "improvement": 0.2136752136752137,
+          "p_raw": 0.07837136599128733,
+          "p_holm": 0.23511409797386199
+        },
+        {
+          "code": "GT_18_4_4",
+          "condition": "foldq_l6",
+          "base_failures": 228,
+          "base_shots": 3000,
+          "treatment_failures": 162,
+          "treatment_shots": 3000,
+          "improvement": 0.2894736842105263,
+          "p_raw": 0.000547736080547964,
+          "p_holm": 0.00273868040273982
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "foldq_l6",
+          "base_failures": 145,
+          "base_shots": 3000,
+          "treatment_failures": 125,
+          "treatment_shots": 3000,
+          "improvement": 0.13793103448275867,
+          "p_raw": 0.2129451752985243,
+          "p_holm": 0.4258903505970486
+        },
+        {
+          "code": "GT_14_6_2",
+          "condition": "foldq_l6",
+          "base_failures": 237,
+          "base_shots": 3000,
+          "treatment_failures": 245,
+          "treatment_shots": 3000,
+          "improvement": -0.03375527426160341,
+          "p_raw": 0.7039664270616923,
+          "p_holm": 0.7039664270616923
+        }
+      ]
+    },
+    "exp32:sabre_base:sabre_foldq": {
+      "tests": 4,
+      "significant_improvement": 3,
+      "significant_worsening": 0,
+      "negative_direction": 0,
+      "rows": [
+        {
+          "code": "D4_3",
+          "condition": "sabre_foldq",
+          "base_failures": 150,
+          "base_shots": 3000,
+          "treatment_failures": 114,
+          "treatment_shots": 3000,
+          "improvement": 0.2400000000000001,
+          "p_raw": 0.023447650342182613,
+          "p_holm": 0.046895300684365225
+        },
+        {
+          "code": "D6_3",
+          "condition": "sabre_foldq",
+          "base_failures": 84,
+          "base_shots": 3000,
+          "treatment_failures": 80,
+          "treatment_shots": 3000,
+          "improvement": 0.04761904761904756,
+          "p_raw": 0.7514668286185172,
+          "p_holm": 0.7514668286185172
+        },
+        {
+          "code": "D8_3",
+          "condition": "sabre_foldq",
+          "base_failures": 127,
+          "base_shots": 3000,
+          "treatment_failures": 55,
+          "treatment_shots": 3000,
+          "improvement": 0.5669291338582677,
+          "p_raw": 5.965613279119029e-08,
+          "p_holm": 1.789683983735709e-07
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "sabre_foldq",
+          "base_failures": 113,
+          "base_shots": 3000,
+          "treatment_failures": 14,
+          "treatment_shots": 3000,
+          "improvement": 0.8761061946902655,
+          "p_raw": 6.727958491872891e-19,
+          "p_holm": 2.6911833967491565e-18
+        }
+      ]
+    },
+    "exp31b:base:foldq": {
+      "tests": 3,
+      "significant_improvement": 3,
+      "significant_worsening": 0,
+      "negative_direction": 0,
+      "rows": [
+        {
+          "code": "GT_216_8_18",
+          "condition": "foldq",
+          "base_failures": 211,
+          "base_shots": 3000,
+          "treatment_failures": 2,
+          "treatment_shots": 3000,
+          "improvement": 0.990521327014218,
+          "p_raw": 3.6776055770331646e-48,
+          "p_holm": 1.1032816731099494e-47
+        },
+        {
+          "code": "GT_204_4_20",
+          "condition": "foldq",
+          "base_failures": 173,
+          "base_shots": 3000,
+          "treatment_failures": 5,
+          "treatment_shots": 3000,
+          "improvement": 0.9710982658959537,
+          "p_raw": 2.0358027427882717e-37,
+          "p_holm": 4.0716054855765434e-37
+        },
+        {
+          "code": "D8_5",
+          "condition": "foldq",
+          "base_failures": 51,
+          "base_shots": 1200,
+          "treatment_failures": 1,
+          "treatment_shots": 1200,
+          "improvement": 0.9803921568627451,
+          "p_raw": 2.3812878817531347e-12,
+          "p_holm": 2.3812878817531347e-12
+        }
+      ]
+    },
+    "exp30:sel_random:sel_swap": {
+      "tests": 8,
+      "significant_improvement": 3,
+      "significant_worsening": 0,
+      "negative_direction": 2,
+      "rows": [
+        {
+          "code": "GT_98_6_12",
+          "condition": "sel_swap",
+          "base_failures": 18,
+          "base_shots": 3000,
+          "treatment_failures": 9,
+          "treatment_shots": 3000,
+          "improvement": 0.5,
+          "p_raw": 0.08257070870770808,
+          "p_holm": 0.4128535435385404
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "sel_swap",
+          "base_failures": 44,
+          "base_shots": 3000,
+          "treatment_failures": 12,
+          "treatment_shots": 3000,
+          "improvement": 0.7272727272727273,
+          "p_raw": 1.7369118127931464e-05,
+          "p_holm": 0.0001389529450234517
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "sel_swap",
+          "base_failures": 29,
+          "base_shots": 3000,
+          "treatment_failures": 11,
+          "treatment_shots": 3000,
+          "improvement": 0.6206896551724138,
+          "p_raw": 0.004295770005829775,
+          "p_holm": 0.02577462003497865
+        },
+        {
+          "code": "D8_3",
+          "condition": "sel_swap",
+          "base_failures": 129,
+          "base_shots": 3000,
+          "treatment_failures": 71,
+          "treatment_shots": 3000,
+          "improvement": 0.4496124031007752,
+          "p_raw": 3.0282597436991953e-05,
+          "p_holm": 0.00021197818205894367
+        },
+        {
+          "code": "D6_3",
+          "condition": "sel_swap",
+          "base_failures": 54,
+          "base_shots": 3000,
+          "treatment_failures": 42,
+          "treatment_shots": 3000,
+          "improvement": 0.2222222222222221,
+          "p_raw": 0.21695632550161636,
+          "p_holm": 0.47548597545819604
+        },
+        {
+          "code": "D4_3",
+          "condition": "sel_swap",
+          "base_failures": 150,
+          "base_shots": 3000,
+          "treatment_failures": 153,
+          "treatment_shots": 3000,
+          "improvement": -0.019999999999999796,
+          "p_raw": 0.8596110537993159,
+          "p_holm": 0.8596110537993159
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "sel_swap",
+          "base_failures": 144,
+          "base_shots": 3000,
+          "treatment_failures": 118,
+          "treatment_shots": 3000,
+          "improvement": 0.18055555555555558,
+          "p_raw": 0.10047649827826843,
+          "p_holm": 0.4128535435385404
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "sel_swap",
+          "base_failures": 128,
+          "base_shots": 3000,
+          "treatment_failures": 151,
+          "treatment_shots": 3000,
+          "improvement": -0.1796875,
+          "p_raw": 0.15849532515273201,
+          "p_holm": 0.47548597545819604
+        }
+      ]
+    },
+    "exp30:sel_swap:sel_wire0.5": {
+      "tests": 8,
+      "significant_improvement": 0,
+      "significant_worsening": 0,
+      "negative_direction": 4,
+      "rows": [
+        {
+          "code": "GT_98_6_12",
+          "condition": "sel_wire0.5",
+          "base_failures": 9,
+          "base_shots": 3000,
+          "treatment_failures": 7,
+          "treatment_shots": 3000,
+          "improvement": 0.2222222222222222,
+          "p_raw": 0.6166047946611495,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "sel_wire0.5",
+          "base_failures": 12,
+          "base_shots": 3000,
+          "treatment_failures": 24,
+          "treatment_shots": 3000,
+          "improvement": -1.0,
+          "p_raw": 0.044853352913516865,
+          "p_holm": 0.3588268233081349
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "sel_wire0.5",
+          "base_failures": 11,
+          "base_shots": 3000,
+          "treatment_failures": 16,
+          "treatment_shots": 3000,
+          "improvement": -0.4545454545454546,
+          "p_raw": 0.334833972427095,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D8_3",
+          "condition": "sel_wire0.5",
+          "base_failures": 71,
+          "base_shots": 3000,
+          "treatment_failures": 53,
+          "treatment_shots": 3000,
+          "improvement": 0.2535211267605634,
+          "p_raw": 0.1023818592636923,
+          "p_holm": 0.7166730148458461
+        },
+        {
+          "code": "D6_3",
+          "condition": "sel_wire0.5",
+          "base_failures": 42,
+          "base_shots": 3000,
+          "treatment_failures": 51,
+          "treatment_shots": 3000,
+          "improvement": -0.2142857142857144,
+          "p_raw": 0.34692298298593993,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D4_3",
+          "condition": "sel_wire0.5",
+          "base_failures": 153,
+          "base_shots": 3000,
+          "treatment_failures": 131,
+          "treatment_shots": 3000,
+          "improvement": 0.14379084967320255,
+          "p_raw": 0.18106025055756492,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "sel_wire0.5",
+          "base_failures": 118,
+          "base_shots": 3000,
+          "treatment_failures": 131,
+          "treatment_shots": 3000,
+          "improvement": -0.11016949152542388,
+          "p_raw": 0.4000749379055344,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "sel_wire0.5",
+          "base_failures": 151,
+          "base_shots": 3000,
+          "treatment_failures": 146,
+          "treatment_shots": 3000,
+          "improvement": 0.03311258278145701,
+          "p_raw": 0.7660174752331513,
+          "p_holm": 1.0
+        }
+      ]
+    },
+    "exp30:sel_swap:sel_two_stage": {
+      "tests": 8,
+      "significant_improvement": 0,
+      "significant_worsening": 0,
+      "negative_direction": 3,
+      "rows": [
+        {
+          "code": "GT_98_6_12",
+          "condition": "sel_two_stage",
+          "base_failures": 9,
+          "base_shots": 3000,
+          "treatment_failures": 5,
+          "treatment_shots": 3000,
+          "improvement": 0.4444444444444444,
+          "p_raw": 0.2844868261436604,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "sel_two_stage",
+          "base_failures": 12,
+          "base_shots": 3000,
+          "treatment_failures": 23,
+          "treatment_shots": 3000,
+          "improvement": -0.9166666666666665,
+          "p_raw": 0.06221136781958809,
+          "p_holm": 0.4976909425567047
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "sel_two_stage",
+          "base_failures": 11,
+          "base_shots": 3000,
+          "treatment_failures": 19,
+          "treatment_shots": 3000,
+          "improvement": -0.7272727272727273,
+          "p_raw": 0.14312327131754912,
+          "p_holm": 0.8587396279052948
+        },
+        {
+          "code": "D8_3",
+          "condition": "sel_two_stage",
+          "base_failures": 71,
+          "base_shots": 3000,
+          "treatment_failures": 68,
+          "treatment_shots": 3000,
+          "improvement": 0.04225352112676051,
+          "p_raw": 0.7968265023157122,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D6_3",
+          "condition": "sel_two_stage",
+          "base_failures": 42,
+          "base_shots": 3000,
+          "treatment_failures": 29,
+          "treatment_shots": 3000,
+          "improvement": 0.30952380952380953,
+          "p_raw": 0.12065592944065834,
+          "p_holm": 0.8445915060846083
+        },
+        {
+          "code": "D4_3",
+          "condition": "sel_two_stage",
+          "base_failures": 153,
+          "base_shots": 3000,
+          "treatment_failures": 147,
+          "treatment_shots": 3000,
+          "improvement": 0.039215686274509665,
+          "p_raw": 0.722282962716193,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "sel_two_stage",
+          "base_failures": 118,
+          "base_shots": 3000,
+          "treatment_failures": 103,
+          "treatment_shots": 3000,
+          "improvement": 0.1271186440677966,
+          "p_raw": 0.30389272397370715,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "sel_two_stage",
+          "base_failures": 151,
+          "base_shots": 3000,
+          "treatment_failures": 153,
+          "treatment_shots": 3000,
+          "improvement": -0.013245033112582627,
+          "p_raw": 0.9062823054833544,
+          "p_holm": 1.0
+        }
+      ]
+    },
+    "exp26_fixed_p": {
+      "tests": 72,
+      "significant_improvement": 46,
+      "significant_worsening": 0,
+      "negative_direction": 3,
+      "rows": [
+        {
+          "code": "GT_96_4_12",
+          "condition": "0.0001",
+          "base_failures": 13,
+          "base_shots": 3000,
+          "treatment_failures": 2,
+          "treatment_shots": 3000,
+          "improvement": 0.8461538461538461,
+          "p_raw": 0.004458675886226285,
+          "p_holm": 0.10700822126943083
+        },
+        {
+          "code": "GT_96_4_12",
+          "condition": "0.0003",
+          "base_failures": 440,
+          "base_shots": 3000,
+          "treatment_failures": 75,
+          "treatment_shots": 3000,
+          "improvement": 0.8295454545454546,
+          "p_raw": 1.68495037266224e-63,
+          "p_holm": 9.60421712417477e-62
+        },
+        {
+          "code": "GT_96_4_12",
+          "condition": "0.001",
+          "base_failures": 2734,
+          "base_shots": 3000,
+          "treatment_failures": 2010,
+          "treatment_shots": 3000,
+          "improvement": 0.26481346013167517,
+          "p_raw": 8.376215518145086e-117,
+          "p_holm": 5.695826552338659e-115
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "0.0001",
+          "base_failures": 25,
+          "base_shots": 3000,
+          "treatment_failures": 1,
+          "treatment_shots": 3000,
+          "improvement": 0.96,
+          "p_raw": 2.3932588197926723e-06,
+          "p_holm": 8.615731751253621e-05
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "0.0003",
+          "base_failures": 662,
+          "base_shots": 3000,
+          "treatment_failures": 87,
+          "treatment_shots": 3000,
+          "improvement": 0.8685800604229608,
+          "p_raw": 1.0559739313832986e-111,
+          "p_holm": 7.075025340268101e-110
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "0.001",
+          "base_failures": 2902,
+          "base_shots": 3000,
+          "treatment_failures": 2059,
+          "treatment_shots": 3000,
+          "improvement": 0.2904893177119229,
+          "p_raw": 6.51354446159546e-182,
+          "p_holm": 4.689752012348732e-180
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "0.0001",
+          "base_failures": 21,
+          "base_shots": 3000,
+          "treatment_failures": 2,
+          "treatment_shots": 3000,
+          "improvement": 0.9047619047619048,
+          "p_raw": 7.205711319421727e-05,
+          "p_holm": 0.00237788473540917
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "0.0003",
+          "base_failures": 503,
+          "base_shots": 3000,
+          "treatment_failures": 92,
+          "treatment_shots": 3000,
+          "improvement": 0.8170974155069582,
+          "p_raw": 1.6465829808490926e-70,
+          "p_holm": 9.879497885094555e-69
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "0.001",
+          "base_failures": 2892,
+          "base_shots": 3000,
+          "treatment_failures": 2186,
+          "treatment_shots": 3000,
+          "improvement": 0.24412171507607183,
+          "p_raw": 6.220695948934041e-141,
+          "p_holm": 4.354487164253829e-139
+        },
+        {
+          "code": "GT_84_6_10",
+          "condition": "0.0001",
+          "base_failures": 16,
+          "base_shots": 3000,
+          "treatment_failures": 3,
+          "treatment_shots": 3000,
+          "improvement": 0.8125,
+          "p_raw": 0.002816026442381964,
+          "p_holm": 0.07321668750193107
+        },
+        {
+          "code": "GT_84_6_10",
+          "condition": "0.0003",
+          "base_failures": 394,
+          "base_shots": 3000,
+          "treatment_failures": 67,
+          "treatment_shots": 3000,
+          "improvement": 0.8299492385786802,
+          "p_raw": 1.3831596431662204e-56,
+          "p_holm": 7.607378037414212e-55
+        },
+        {
+          "code": "GT_84_6_10",
+          "condition": "0.001",
+          "base_failures": 2785,
+          "base_shots": 3000,
+          "treatment_failures": 1908,
+          "treatment_shots": 3000,
+          "improvement": 0.31490125673249547,
+          "p_raw": 1.2324858620306057e-165,
+          "p_holm": 8.7506496204173e-164
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "0.0001",
+          "base_failures": 36,
+          "base_shots": 3000,
+          "treatment_failures": 3,
+          "treatment_shots": 3000,
+          "improvement": 0.9166666666666666,
+          "p_raw": 1.1486322986973989e-07,
+          "p_holm": 4.364802735050116e-06
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "0.0003",
+          "base_failures": 446,
+          "base_shots": 3000,
+          "treatment_failures": 100,
+          "treatment_shots": 3000,
+          "improvement": 0.7757847533632287,
+          "p_raw": 2.142053266462218e-54,
+          "p_holm": 1.1567087638895979e-52
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "0.001",
+          "base_failures": 2619,
+          "base_shots": 3000,
+          "treatment_failures": 1760,
+          "treatment_shots": 3000,
+          "improvement": 0.32798778159602904,
+          "p_raw": 1.1689997783089603e-137,
+          "p_holm": 8.066098470331826e-136
+        },
+        {
+          "code": "GT_72_8_8",
+          "condition": "0.0001",
+          "base_failures": 15,
+          "base_shots": 3000,
+          "treatment_failures": 9,
+          "treatment_shots": 3000,
+          "improvement": 0.4,
+          "p_raw": 0.219746777803992,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_72_8_8",
+          "condition": "0.0003",
+          "base_failures": 364,
+          "base_shots": 3000,
+          "treatment_failures": 107,
+          "treatment_shots": 3000,
+          "improvement": 0.706043956043956,
+          "p_raw": 5.795170728572137e-35,
+          "p_holm": 2.95553707157179e-33
+        },
+        {
+          "code": "GT_72_8_8",
+          "condition": "0.001",
+          "base_failures": 2624,
+          "base_shots": 3000,
+          "treatment_failures": 1870,
+          "treatment_shots": 3000,
+          "improvement": 0.2873475609756099,
+          "p_raw": 1.2773298068145464e-111,
+          "p_holm": 8.430376724976006e-110
+        },
+        {
+          "code": "GT_70_6_8",
+          "condition": "0.0001",
+          "base_failures": 17,
+          "base_shots": 3000,
+          "treatment_failures": 5,
+          "treatment_shots": 3000,
+          "improvement": 0.7058823529411764,
+          "p_raw": 0.010373859288210632,
+          "p_holm": 0.21124593255806645
+        },
+        {
+          "code": "GT_70_6_8",
+          "condition": "0.0003",
+          "base_failures": 362,
+          "base_shots": 3000,
+          "treatment_failures": 103,
+          "treatment_shots": 3000,
+          "improvement": 0.7154696132596685,
+          "p_raw": 6.993734505116373e-36,
+          "p_holm": 3.636741942660514e-34
+        },
+        {
+          "code": "GT_70_6_8",
+          "condition": "0.001",
+          "base_failures": 2528,
+          "base_shots": 3000,
+          "treatment_failures": 1740,
+          "treatment_shots": 3000,
+          "improvement": 0.3117088607594938,
+          "p_raw": 1.2806874262514413e-111,
+          "p_holm": 8.430376724976006e-110
+        },
+        {
+          "code": "D8_3",
+          "condition": "0.0001",
+          "base_failures": 42,
+          "base_shots": 3000,
+          "treatment_failures": 16,
+          "treatment_shots": 3000,
+          "improvement": 0.6190476190476191,
+          "p_raw": 0.0006022730332761318,
+          "p_holm": 0.01746591796500782
+        },
+        {
+          "code": "D8_3",
+          "condition": "0.0003",
+          "base_failures": 443,
+          "base_shots": 3000,
+          "treatment_failures": 191,
+          "treatment_shots": 3000,
+          "improvement": 0.5688487584650113,
+          "p_raw": 3.575713452077436e-26,
+          "p_holm": 1.7520995915179435e-24
+        },
+        {
+          "code": "D8_3",
+          "condition": "0.001",
+          "base_failures": 2685,
+          "base_shots": 3000,
+          "treatment_failures": 1977,
+          "treatment_shots": 3000,
+          "improvement": 0.26368715083798877,
+          "p_raw": 7.247168824751643e-107,
+          "p_holm": 4.6381880478410516e-105
+        },
+        {
+          "code": "GT_66_4_10",
+          "condition": "0.0001",
+          "base_failures": 14,
+          "base_shots": 3000,
+          "treatment_failures": 4,
+          "treatment_shots": 3000,
+          "improvement": 0.7142857142857143,
+          "p_raw": 0.018247065532678915,
+          "p_holm": 0.2554589174575048
+        },
+        {
+          "code": "GT_66_4_10",
+          "condition": "0.0003",
+          "base_failures": 281,
+          "base_shots": 3000,
+          "treatment_failures": 88,
+          "treatment_shots": 3000,
+          "improvement": 0.6868327402135231,
+          "p_raw": 3.3545701959151604e-25,
+          "p_holm": 1.610193694039277e-23
+        },
+        {
+          "code": "GT_66_4_10",
+          "condition": "0.001",
+          "base_failures": 2289,
+          "base_shots": 3000,
+          "treatment_failures": 1651,
+          "treatment_shots": 3000,
+          "improvement": 0.27872433377020533,
+          "p_raw": 2.0923741611921334e-67,
+          "p_holm": 1.2135770134914374e-65
+        },
+        {
+          "code": "GT_62_10_6",
+          "condition": "0.0001",
+          "base_failures": 35,
+          "base_shots": 3000,
+          "treatment_failures": 12,
+          "treatment_shots": 3000,
+          "improvement": 0.6571428571428571,
+          "p_raw": 0.000756847023230563,
+          "p_holm": 0.020559292000102602
+        },
+        {
+          "code": "GT_62_10_6",
+          "condition": "0.0003",
+          "base_failures": 436,
+          "base_shots": 3000,
+          "treatment_failures": 137,
+          "treatment_shots": 3000,
+          "improvement": 0.6857798165137614,
+          "p_raw": 2.1087467411712687e-39,
+          "p_holm": 1.1176357728207723e-37
+        },
+        {
+          "code": "GT_62_10_6",
+          "condition": "0.001",
+          "base_failures": 2622,
+          "base_shots": 3000,
+          "treatment_failures": 1894,
+          "treatment_shots": 3000,
+          "improvement": 0.2776506483600305,
+          "p_raw": 3.380127262293098e-105,
+          "p_holm": 2.0956789026217206e-103
+        },
+        {
+          "code": "GT_60_8_6",
+          "condition": "0.0001",
+          "base_failures": 17,
+          "base_shots": 3000,
+          "treatment_failures": 1,
+          "treatment_shots": 3000,
+          "improvement": 0.9411764705882353,
+          "p_raw": 0.00015878876521998114,
+          "p_holm": 0.0050812404870393965
+        },
+        {
+          "code": "GT_60_8_6",
+          "condition": "0.0003",
+          "base_failures": 247,
+          "base_shots": 3000,
+          "treatment_failures": 92,
+          "treatment_shots": 3000,
+          "improvement": 0.6275303643724697,
+          "p_raw": 4.4426943941829515e-18,
+          "p_holm": 1.9992124773823281e-16
+        },
+        {
+          "code": "GT_60_8_6",
+          "condition": "0.001",
+          "base_failures": 2200,
+          "base_shots": 3000,
+          "treatment_failures": 1520,
+          "treatment_shots": 3000,
+          "improvement": 0.30909090909090897,
+          "p_raw": 4.098801517448012e-73,
+          "p_holm": 2.5002689256432876e-71
+        },
+        {
+          "code": "GT_56_6_8",
+          "condition": "0.0001",
+          "base_failures": 13,
+          "base_shots": 3000,
+          "treatment_failures": 5,
+          "treatment_shots": 3000,
+          "improvement": 0.6153846153846154,
+          "p_raw": 0.05896517664418117,
+          "p_holm": 0.6486169430859928
+        },
+        {
+          "code": "GT_56_6_8",
+          "condition": "0.0003",
+          "base_failures": 263,
+          "base_shots": 3000,
+          "treatment_failures": 84,
+          "treatment_shots": 3000,
+          "improvement": 0.6806083650190113,
+          "p_raw": 4.17298029606536e-23,
+          "p_holm": 1.9195709361900656e-21
+        },
+        {
+          "code": "GT_56_6_8",
+          "condition": "0.001",
+          "base_failures": 2226,
+          "base_shots": 3000,
+          "treatment_failures": 1395,
+          "treatment_shots": 3000,
+          "improvement": 0.37331536388140163,
+          "p_raw": 1.30526860680356e-106,
+          "p_holm": 8.223192222862428e-105
+        },
+        {
+          "code": "GT_54_8_6",
+          "condition": "0.0001",
+          "base_failures": 31,
+          "base_shots": 3000,
+          "treatment_failures": 6,
+          "treatment_shots": 3000,
+          "improvement": 0.8064516129032258,
+          "p_raw": 3.7444745986467005e-05,
+          "p_holm": 0.0012731213635398782
+        },
+        {
+          "code": "GT_54_8_6",
+          "condition": "0.0003",
+          "base_failures": 331,
+          "base_shots": 3000,
+          "treatment_failures": 151,
+          "treatment_shots": 3000,
+          "improvement": 0.5438066465256798,
+          "p_raw": 1.2376956111579669e-17,
+          "p_holm": 5.445860689095055e-16
+        },
+        {
+          "code": "GT_54_8_6",
+          "condition": "0.001",
+          "base_failures": 2237,
+          "base_shots": 3000,
+          "treatment_failures": 1642,
+          "treatment_shots": 3000,
+          "improvement": 0.2659812248547162,
+          "p_raw": 4.2752447436790744e-58,
+          "p_holm": 2.3941370564602816e-56
+        },
+        {
+          "code": "D6_3",
+          "condition": "0.0001",
+          "base_failures": 37,
+          "base_shots": 3000,
+          "treatment_failures": 18,
+          "treatment_shots": 3000,
+          "improvement": 0.5135135135135135,
+          "p_raw": 0.010059330121812688,
+          "p_holm": 0.21124593255806645
+        },
+        {
+          "code": "D6_3",
+          "condition": "0.0003",
+          "base_failures": 312,
+          "base_shots": 3000,
+          "treatment_failures": 160,
+          "treatment_shots": 3000,
+          "improvement": 0.4871794871794871,
+          "p_raw": 3.1241008216359425e-13,
+          "p_holm": 1.3121223450870959e-11
+        },
+        {
+          "code": "D6_3",
+          "condition": "0.001",
+          "base_failures": 2192,
+          "base_shots": 3000,
+          "treatment_failures": 1538,
+          "treatment_shots": 3000,
+          "improvement": 0.29835766423357657,
+          "p_raw": 6.990484408932508e-68,
+          "p_holm": 4.1243858012701797e-66
+        },
+        {
+          "code": "GT_48_4_8",
+          "condition": "0.0001",
+          "base_failures": 9,
+          "base_shots": 3000,
+          "treatment_failures": 9,
+          "treatment_shots": 3000,
+          "improvement": 0.0,
+          "p_raw": 1.0,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_48_4_8",
+          "condition": "0.0003",
+          "base_failures": 155,
+          "base_shots": 3000,
+          "treatment_failures": 110,
+          "treatment_shots": 3000,
+          "improvement": 0.29032258064516125,
+          "p_raw": 0.004691694836567594,
+          "p_holm": 0.10790898124105465
+        },
+        {
+          "code": "GT_48_4_8",
+          "condition": "0.001",
+          "base_failures": 1547,
+          "base_shots": 3000,
+          "treatment_failures": 1156,
+          "treatment_shots": 3000,
+          "improvement": 0.25274725274725274,
+          "p_raw": 3.472933382000538e-24,
+          "p_holm": 1.6322786895402527e-22
+        },
+        {
+          "code": "GT_42_6_6",
+          "condition": "0.0001",
+          "base_failures": 14,
+          "base_shots": 3000,
+          "treatment_failures": 3,
+          "treatment_shots": 3000,
+          "improvement": 0.7857142857142857,
+          "p_raw": 0.007547270861338071,
+          "p_holm": 0.16603995894943757
+        },
+        {
+          "code": "GT_42_6_6",
+          "condition": "0.0003",
+          "base_failures": 134,
+          "base_shots": 3000,
+          "treatment_failures": 114,
+          "treatment_shots": 3000,
+          "improvement": 0.14925373134328357,
+          "p_raw": 0.19459998488613595,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_42_6_6",
+          "condition": "0.001",
+          "base_failures": 1416,
+          "base_shots": 3000,
+          "treatment_failures": 1170,
+          "treatment_shots": 3000,
+          "improvement": 0.17372881355932202,
+          "p_raw": 1.4263550011219312e-10,
+          "p_holm": 5.8480555045999175e-09
+        },
+        {
+          "code": "GT_36_4_6",
+          "condition": "0.0001",
+          "base_failures": 16,
+          "base_shots": 3000,
+          "treatment_failures": 6,
+          "treatment_shots": 3000,
+          "improvement": 0.625,
+          "p_raw": 0.032685395011149955,
+          "p_holm": 0.4249101351449494
+        },
+        {
+          "code": "GT_36_4_6",
+          "condition": "0.0003",
+          "base_failures": 149,
+          "base_shots": 3000,
+          "treatment_failures": 74,
+          "treatment_shots": 3000,
+          "improvement": 0.5033557046979866,
+          "p_raw": 3.0815682234091714e-07,
+          "p_holm": 1.1401802426613935e-05
+        },
+        {
+          "code": "GT_36_4_6",
+          "condition": "0.001",
+          "base_failures": 1291,
+          "base_shots": 3000,
+          "treatment_failures": 858,
+          "treatment_shots": 3000,
+          "improvement": 0.3353989155693262,
+          "p_raw": 2.066317273812842e-31,
+          "p_holm": 1.033158636906421e-29
+        },
+        {
+          "code": "D4_3",
+          "condition": "0.0001",
+          "base_failures": 27,
+          "base_shots": 3000,
+          "treatment_failures": 30,
+          "treatment_shots": 3000,
+          "improvement": -0.11111111111111116,
+          "p_raw": 0.6897011058405826,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D4_3",
+          "condition": "0.0003",
+          "base_failures": 190,
+          "base_shots": 3000,
+          "treatment_failures": 119,
+          "treatment_shots": 3000,
+          "improvement": 0.37368421052631584,
+          "p_raw": 3.364894110673538e-05,
+          "p_holm": 0.0011777129387357383
+        },
+        {
+          "code": "D4_3",
+          "condition": "0.001",
+          "base_failures": 1372,
+          "base_shots": 3000,
+          "treatment_failures": 1051,
+          "treatment_shots": 3000,
+          "improvement": 0.2339650145772595,
+          "p_raw": 3.0178496168840983e-17,
+          "p_holm": 1.2976753352601623e-15
+        },
+        {
+          "code": "GT_30_4_6",
+          "condition": "0.0001",
+          "base_failures": 13,
+          "base_shots": 3000,
+          "treatment_failures": 3,
+          "treatment_shots": 3000,
+          "improvement": 0.7692307692307692,
+          "p_raw": 0.012302728793340108,
+          "p_holm": 0.22144911828012193
+        },
+        {
+          "code": "GT_30_4_6",
+          "condition": "0.0003",
+          "base_failures": 102,
+          "base_shots": 3000,
+          "treatment_failures": 75,
+          "treatment_shots": 3000,
+          "improvement": 0.26470588235294124,
+          "p_raw": 0.03939303575125481,
+          "p_holm": 0.4727164290150577
+        },
+        {
+          "code": "GT_30_4_6",
+          "condition": "0.001",
+          "base_failures": 782,
+          "base_shots": 3000,
+          "treatment_failures": 699,
+          "treatment_shots": 3000,
+          "improvement": 0.10613810741687968,
+          "p_raw": 0.012949183906322168,
+          "p_holm": 0.22144911828012193
+        },
+        {
+          "code": "GT_28_6_4",
+          "condition": "0.0001",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 50,
+          "treatment_shots": 3000,
+          "improvement": 0.35064935064935066,
+          "p_raw": 0.015451135003921791,
+          "p_holm": 0.24251308283674625
+        },
+        {
+          "code": "GT_28_6_4",
+          "condition": "0.0003",
+          "base_failures": 268,
+          "base_shots": 3000,
+          "treatment_failures": 198,
+          "treatment_shots": 3000,
+          "improvement": 0.26119402985074625,
+          "p_raw": 0.0007342604285750929,
+          "p_holm": 0.020559292000102602
+        },
+        {
+          "code": "GT_28_6_4",
+          "condition": "0.001",
+          "base_failures": 1192,
+          "base_shots": 3000,
+          "treatment_failures": 964,
+          "treatment_shots": 3000,
+          "improvement": 0.1912751677852348,
+          "p_raw": 8.531189806071611e-10,
+          "p_holm": 3.4124759224286445e-08
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "0.0001",
+          "base_failures": 20,
+          "base_shots": 3000,
+          "treatment_failures": 11,
+          "treatment_shots": 3000,
+          "improvement": 0.45000000000000007,
+          "p_raw": 0.10509491284652032,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "0.0003",
+          "base_failures": 104,
+          "base_shots": 3000,
+          "treatment_failures": 94,
+          "treatment_shots": 3000,
+          "improvement": 0.09615384615384615,
+          "p_raw": 0.4698681902337206,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "0.001",
+          "base_failures": 713,
+          "base_shots": 3000,
+          "treatment_failures": 618,
+          "treatment_shots": 3000,
+          "improvement": 0.13323983169705478,
+          "p_raw": 0.0031584865837289314,
+          "p_holm": 0.07896216459322328
+        },
+        {
+          "code": "GT_18_4_4",
+          "condition": "0.0001",
+          "base_failures": 47,
+          "base_shots": 3000,
+          "treatment_failures": 43,
+          "treatment_shots": 3000,
+          "improvement": 0.0851063829787233,
+          "p_raw": 0.6709567241546612,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_18_4_4",
+          "condition": "0.0003",
+          "base_failures": 221,
+          "base_shots": 3000,
+          "treatment_failures": 152,
+          "treatment_shots": 3000,
+          "improvement": 0.31221719457013586,
+          "p_raw": 0.00022496301017635122,
+          "p_holm": 0.006973853315466888
+        },
+        {
+          "code": "GT_18_4_4",
+          "condition": "0.001",
+          "base_failures": 788,
+          "base_shots": 3000,
+          "treatment_failures": 605,
+          "treatment_shots": 3000,
+          "improvement": 0.23223350253807107,
+          "p_raw": 2.199353809389044e-08,
+          "p_holm": 8.577479856617271e-07
+        },
+        {
+          "code": "GT_14_6_2",
+          "condition": "0.0001",
+          "base_failures": 154,
+          "base_shots": 3000,
+          "treatment_failures": 178,
+          "treatment_shots": 3000,
+          "improvement": -0.1558441558441559,
+          "p_raw": 0.17535433045940163,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_14_6_2",
+          "condition": "0.0003",
+          "base_failures": 507,
+          "base_shots": 3000,
+          "treatment_failures": 408,
+          "treatment_shots": 3000,
+          "improvement": 0.1952662721893491,
+          "p_raw": 0.00037780038899970535,
+          "p_holm": 0.011334011669991161
+        },
+        {
+          "code": "GT_14_6_2",
+          "condition": "0.001",
+          "base_failures": 1322,
+          "base_shots": 3000,
+          "treatment_failures": 1229,
+          "treatment_shots": 3000,
+          "improvement": 0.0703479576399394,
+          "p_raw": 0.01515706767729664,
+          "p_holm": 0.24251308283674625
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "0.0001",
+          "base_failures": 131,
+          "base_shots": 3000,
+          "treatment_failures": 111,
+          "treatment_shots": 3000,
+          "improvement": 0.15267175572519087,
+          "p_raw": 0.18938939953039902,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "0.0003",
+          "base_failures": 333,
+          "base_shots": 3000,
+          "treatment_failures": 338,
+          "treatment_shots": 3000,
+          "improvement": -0.01501501501501501,
+          "p_raw": 0.837716759442491,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "0.001",
+          "base_failures": 974,
+          "base_shots": 3000,
+          "treatment_failures": 882,
+          "treatment_shots": 3000,
+          "improvement": 0.09445585215605756,
+          "p_raw": 0.010181761902030151,
+          "p_holm": 0.21124593255806645
+        }
+      ]
+    },
+    "exp26_xdet": {
+      "tests": 23,
+      "significant_improvement": 19,
+      "significant_worsening": 0,
+      "negative_direction": 0,
+      "rows": [
+        {
+          "code": "GT_84_6_10",
+          "condition": "xdet",
+          "base_failures": 559,
+          "base_shots": 3000,
+          "treatment_failures": 140,
+          "treatment_shots": 3000,
+          "improvement": 0.7495527728085867,
+          "p_raw": 8.774424973679707e-64,
+          "p_holm": 1.8426292444727384e-62
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "xdet",
+          "base_failures": 699,
+          "base_shots": 3000,
+          "treatment_failures": 172,
+          "treatment_shots": 3000,
+          "improvement": 0.753934191702432,
+          "p_raw": 4.136332974831166e-83,
+          "p_holm": 9.099932544628565e-82
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "xdet",
+          "base_failures": 832,
+          "base_shots": 3000,
+          "treatment_failures": 163,
+          "treatment_shots": 3000,
+          "improvement": 0.8040865384615384,
+          "p_raw": 2.769041663592351e-119,
+          "p_holm": 6.368795826262408e-118
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "xdet",
+          "base_failures": 462,
+          "base_shots": 3000,
+          "treatment_failures": 129,
+          "treatment_shots": 3000,
+          "improvement": 0.7207792207792207,
+          "p_raw": 3.5139502764522113e-47,
+          "p_holm": 7.027900552904423e-46
+        },
+        {
+          "code": "GT_72_8_8",
+          "condition": "xdet",
+          "base_failures": 420,
+          "base_shots": 3000,
+          "treatment_failures": 163,
+          "treatment_shots": 3000,
+          "improvement": 0.611904761904762,
+          "p_raw": 3.9869069922189044e-29,
+          "p_holm": 6.379051187550247e-28
+        },
+        {
+          "code": "GT_70_6_8",
+          "condition": "xdet",
+          "base_failures": 415,
+          "base_shots": 3000,
+          "treatment_failures": 146,
+          "treatment_shots": 3000,
+          "improvement": 0.6481927710843374,
+          "p_raw": 8.404399105122074e-33,
+          "p_holm": 1.5127918389219733e-31
+        },
+        {
+          "code": "D8_3",
+          "condition": "xdet",
+          "base_failures": 420,
+          "base_shots": 3000,
+          "treatment_failures": 151,
+          "treatment_shots": 3000,
+          "improvement": 0.6404761904761905,
+          "p_raw": 2.5888023854236776e-32,
+          "p_holm": 4.400964055220252e-31
+        },
+        {
+          "code": "GT_66_4_10",
+          "condition": "xdet",
+          "base_failures": 314,
+          "base_shots": 3000,
+          "treatment_failures": 137,
+          "treatment_shots": 3000,
+          "improvement": 0.5636942675159236,
+          "p_raw": 4.44864391946998e-18,
+          "p_holm": 5.338372703363976e-17
+        },
+        {
+          "code": "GT_62_10_6",
+          "condition": "xdet",
+          "base_failures": 488,
+          "base_shots": 3000,
+          "treatment_failures": 173,
+          "treatment_shots": 3000,
+          "improvement": 0.6454918032786885,
+          "p_raw": 1.4238163396847788e-38,
+          "p_holm": 2.7052510454010795e-37
+        },
+        {
+          "code": "GT_60_8_6",
+          "condition": "xdet",
+          "base_failures": 282,
+          "base_shots": 3000,
+          "treatment_failures": 107,
+          "treatment_shots": 3000,
+          "improvement": 0.6205673758865249,
+          "p_raw": 4.504542976477241e-20,
+          "p_holm": 6.306360167068137e-19
+        },
+        {
+          "code": "GT_56_6_8",
+          "condition": "xdet",
+          "base_failures": 449,
+          "base_shots": 3000,
+          "treatment_failures": 198,
+          "treatment_shots": 3000,
+          "improvement": 0.5590200445434299,
+          "p_raw": 1.5096571712394944e-25,
+          "p_holm": 2.2644857568592416e-24
+        },
+        {
+          "code": "D6_3",
+          "condition": "xdet",
+          "base_failures": 326,
+          "base_shots": 3000,
+          "treatment_failures": 142,
+          "treatment_shots": 3000,
+          "improvement": 0.5644171779141105,
+          "p_raw": 8.15557507394984e-19,
+          "p_holm": 1.0602247596134793e-17
+        },
+        {
+          "code": "GT_54_8_6",
+          "condition": "xdet",
+          "base_failures": 335,
+          "base_shots": 3000,
+          "treatment_failures": 171,
+          "treatment_shots": 3000,
+          "improvement": 0.4895522388059701,
+          "p_raw": 2.555819890897314e-14,
+          "p_holm": 2.8114018799870454e-13
+        },
+        {
+          "code": "GT_48_4_8",
+          "condition": "xdet",
+          "base_failures": 394,
+          "base_shots": 3000,
+          "treatment_failures": 282,
+          "treatment_shots": 3000,
+          "improvement": 0.2842639593908629,
+          "p_raw": 4.807883237458501e-06,
+          "p_holm": 4.807883237458501e-05
+        },
+        {
+          "code": "GT_42_6_6",
+          "condition": "xdet",
+          "base_failures": 334,
+          "base_shots": 3000,
+          "treatment_failures": 245,
+          "treatment_shots": 3000,
+          "improvement": 0.2664670658682635,
+          "p_raw": 9.973827318187924e-05,
+          "p_holm": 0.0006981679122731547
+        },
+        {
+          "code": "D4_3",
+          "condition": "xdet",
+          "base_failures": 309,
+          "base_shots": 3000,
+          "treatment_failures": 216,
+          "treatment_shots": 3000,
+          "improvement": 0.30097087378640774,
+          "p_raw": 2.1472570750342262e-05,
+          "p_holm": 0.0001717805660027381
+        },
+        {
+          "code": "GT_36_4_6",
+          "condition": "xdet",
+          "base_failures": 272,
+          "base_shots": 3000,
+          "treatment_failures": 182,
+          "treatment_shots": 3000,
+          "improvement": 0.3308823529411765,
+          "p_raw": 1.115939740797879e-05,
+          "p_holm": 0.00010043457667180911
+        },
+        {
+          "code": "GT_28_6_4",
+          "condition": "xdet",
+          "base_failures": 134,
+          "base_shots": 3000,
+          "treatment_failures": 102,
+          "treatment_shots": 3000,
+          "improvement": 0.23880597014925364,
+          "p_raw": 0.03356674105302001,
+          "p_holm": 0.0821257492920606
+        },
+        {
+          "code": "GT_30_4_6",
+          "condition": "xdet",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 123,
+          "treatment_shots": 3000,
+          "improvement": 0.272189349112426,
+          "p_raw": 0.0057811519157379525,
+          "p_holm": 0.028905759578689762
+        },
+        {
+          "code": "GT_18_4_4",
+          "condition": "xdet",
+          "base_failures": 152,
+          "base_shots": 3000,
+          "treatment_failures": 115,
+          "treatment_shots": 3000,
+          "improvement": 0.24342105263157898,
+          "p_raw": 0.02053143732301515,
+          "p_holm": 0.0821257492920606
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "xdet",
+          "base_failures": 149,
+          "base_shots": 3000,
+          "treatment_failures": 104,
+          "treatment_shots": 3000,
+          "improvement": 0.30201342281879195,
+          "p_raw": 0.0038435020559514,
+          "p_holm": 0.0230610123357084
+        },
+        {
+          "code": "GT_14_6_2",
+          "condition": "xdet",
+          "base_failures": 170,
+          "base_shots": 3000,
+          "treatment_failures": 148,
+          "treatment_shots": 3000,
+          "improvement": 0.12941176470588234,
+          "p_raw": 0.20488670891964111,
+          "p_holm": 0.20488670891964111
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "xdet",
+          "base_failures": 139,
+          "base_shots": 3000,
+          "treatment_failures": 105,
+          "treatment_shots": 3000,
+          "improvement": 0.2446043165467625,
+          "p_raw": 0.026264230376424186,
+          "p_holm": 0.0821257492920606
+        }
+      ]
+    },
+    "exp29": {
+      "tests": 200,
+      "significant_improvement": 130,
+      "significant_worsening": 0,
+      "negative_direction": 9,
+      "rows": [
+        {
+          "code": "GT_24_4_4",
+          "condition": "a1_b1",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 117,
+          "treatment_shots": 3000,
+          "improvement": 0.2909090909090909,
+          "p_raw": 0.0034115625534245665,
+          "p_holm": 0.2149284408657477
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a1_b1.5",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 129,
+          "treatment_shots": 3000,
+          "improvement": 0.21818181818181825,
+          "p_raw": 0.0313208030411342,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a1_b2",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 133,
+          "treatment_shots": 3000,
+          "improvement": 0.19393939393939386,
+          "p_raw": 0.05723223532913281,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a1_b2.5",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 139,
+          "treatment_shots": 3000,
+          "improvement": 0.1575757575757576,
+          "p_raw": 0.1258983679057008,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a1_b3",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 153,
+          "treatment_shots": 3000,
+          "improvement": 0.07272727272727275,
+          "p_raw": 0.48925086847455435,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a1.5_b1",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 116,
+          "treatment_shots": 3000,
+          "improvement": 0.2969696969696969,
+          "p_raw": 0.002753042572005082,
+          "p_holm": 0.17894776718033034
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a1.5_b1.5",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 119,
+          "treatment_shots": 3000,
+          "improvement": 0.2787878787878787,
+          "p_raw": 0.00516456665305816,
+          "p_holm": 0.31503856583654777
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a1.5_b2",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 134,
+          "treatment_shots": 3000,
+          "improvement": 0.18787878787878787,
+          "p_raw": 0.0658874894449502,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a1.5_b2.5",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 139,
+          "treatment_shots": 3000,
+          "improvement": 0.1575757575757576,
+          "p_raw": 0.1258983679057008,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a1.5_b3",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 131,
+          "treatment_shots": 3000,
+          "improvement": 0.20606060606060606,
+          "p_raw": 0.04267903525172168,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a2_b1",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 141,
+          "treatment_shots": 3000,
+          "improvement": 0.1454545454545455,
+          "p_raw": 0.15902090739806363,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a2_b1.5",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 135,
+          "treatment_shots": 3000,
+          "improvement": 0.18181818181818188,
+          "p_raw": 0.07556056752594122,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a2_b2",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 133,
+          "treatment_shots": 3000,
+          "improvement": 0.19393939393939386,
+          "p_raw": 0.05723223532913281,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a2_b2.5",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 128,
+          "treatment_shots": 3000,
+          "improvement": 0.22424242424242424,
+          "p_raw": 0.02666710158706869,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a2_b3",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 159,
+          "treatment_shots": 3000,
+          "improvement": 0.036363636363636376,
+          "p_raw": 0.7318128390624707,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a2.5_b1",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 130,
+          "treatment_shots": 3000,
+          "improvement": 0.21212121212121204,
+          "p_raw": 0.03663572079035446,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a2.5_b1.5",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 153,
+          "treatment_shots": 3000,
+          "improvement": 0.07272727272727275,
+          "p_raw": 0.48925086847455435,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a2.5_b2",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 145,
+          "treatment_shots": 3000,
+          "improvement": 0.12121212121212122,
+          "p_raw": 0.2434298251771566,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a2.5_b2.5",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 170,
+          "treatment_shots": 3000,
+          "improvement": -0.030303030303030276,
+          "p_raw": 0.7786027103023231,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a2.5_b3",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 185,
+          "treatment_shots": 3000,
+          "improvement": -0.12121212121212133,
+          "p_raw": 0.27060974044256236,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a3_b1",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 127,
+          "treatment_shots": 3000,
+          "improvement": 0.23030303030303034,
+          "p_raw": 0.02261050121947444,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a3_b1.5",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 137,
+          "treatment_shots": 3000,
+          "improvement": 0.16969696969696968,
+          "p_raw": 0.09825642903572399,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a3_b2",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 167,
+          "treatment_shots": 3000,
+          "improvement": -0.0121212121212122,
+          "p_raw": 0.9100835099490857,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a3_b2.5",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 179,
+          "treatment_shots": 3000,
+          "improvement": -0.08484848484848473,
+          "p_raw": 0.4368962038256692,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "a3_b3",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 191,
+          "treatment_shots": 3000,
+          "improvement": -0.15757575757575748,
+          "p_raw": 0.15537726701404736,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D4_3",
+          "condition": "a1_b1",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 125,
+          "treatment_shots": 3000,
+          "improvement": 0.4318181818181819,
+          "p_raw": 1.376667460397241e-07,
+          "p_holm": 1.3904341350012132e-05
+        },
+        {
+          "code": "D4_3",
+          "condition": "a1_b1.5",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 136,
+          "treatment_shots": 3000,
+          "improvement": 0.3818181818181817,
+          "p_raw": 4.427138499218919e-06,
+          "p_holm": 0.0004117238804273595
+        },
+        {
+          "code": "D4_3",
+          "condition": "a1_b2",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 139,
+          "treatment_shots": 3000,
+          "improvement": 0.3681818181818183,
+          "p_raw": 1.0387204570177674e-05,
+          "p_holm": 0.0009452356158861683
+        },
+        {
+          "code": "D4_3",
+          "condition": "a1_b2.5",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 149,
+          "treatment_shots": 3000,
+          "improvement": 0.32272727272727275,
+          "p_raw": 0.00013602080399218908,
+          "p_holm": 0.010745643515382937
+        },
+        {
+          "code": "D4_3",
+          "condition": "a1_b3",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 162,
+          "treatment_shots": 3000,
+          "improvement": 0.26363636363636367,
+          "p_raw": 0.0021638598273586124,
+          "p_holm": 0.14497860843302704
+        },
+        {
+          "code": "D4_3",
+          "condition": "a1.5_b1",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 132,
+          "treatment_shots": 3000,
+          "improvement": 0.4,
+          "p_raw": 1.3356993348322983e-06,
+          "p_holm": 0.00012689143680906834
+        },
+        {
+          "code": "D4_3",
+          "condition": "a1.5_b1.5",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 132,
+          "treatment_shots": 3000,
+          "improvement": 0.4,
+          "p_raw": 1.3356993348322983e-06,
+          "p_holm": 0.00012689143680906834
+        },
+        {
+          "code": "D4_3",
+          "condition": "a1.5_b2",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 165,
+          "treatment_shots": 3000,
+          "improvement": 0.25,
+          "p_raw": 0.0037607273958794336,
+          "p_holm": 0.23316509854452488
+        },
+        {
+          "code": "D4_3",
+          "condition": "a1.5_b2.5",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 154,
+          "treatment_shots": 3000,
+          "improvement": 0.29999999999999993,
+          "p_raw": 0.00042445984903533815,
+          "p_holm": 0.030561109130544346
+        },
+        {
+          "code": "D4_3",
+          "condition": "a1.5_b3",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 190,
+          "treatment_shots": 3000,
+          "improvement": 0.13636363636363624,
+          "p_raw": 0.12479193031290807,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D4_3",
+          "condition": "a2_b1",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 149,
+          "treatment_shots": 3000,
+          "improvement": 0.32272727272727275,
+          "p_raw": 0.00013602080399218908,
+          "p_holm": 0.010745643515382937
+        },
+        {
+          "code": "D4_3",
+          "condition": "a2_b1.5",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 158,
+          "treatment_shots": 3000,
+          "improvement": 0.28181818181818186,
+          "p_raw": 0.0009863292446693553,
+          "p_holm": 0.06904304712685487
+        },
+        {
+          "code": "D4_3",
+          "condition": "a2_b2",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 150,
+          "treatment_shots": 3000,
+          "improvement": 0.3181818181818181,
+          "p_raw": 0.00017209677442742643,
+          "p_holm": 0.013251451630911836
+        },
+        {
+          "code": "D4_3",
+          "condition": "a2_b2.5",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 176,
+          "treatment_shots": 3000,
+          "improvement": 0.20000000000000007,
+          "p_raw": 0.022145000217279137,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D4_3",
+          "condition": "a2_b3",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 193,
+          "treatment_shots": 3000,
+          "improvement": 0.12272727272727268,
+          "p_raw": 0.16857000205986084,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D4_3",
+          "condition": "a2.5_b1",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 141,
+          "treatment_shots": 3000,
+          "improvement": 0.3590909090909091,
+          "p_raw": 1.795430436970452e-05,
+          "p_holm": 0.0014902072626854753
+        },
+        {
+          "code": "D4_3",
+          "condition": "a2.5_b1.5",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 152,
+          "treatment_shots": 3000,
+          "improvement": 0.3090909090909091,
+          "p_raw": 0.00027233077959639394,
+          "p_holm": 0.02015247769013315
+        },
+        {
+          "code": "D4_3",
+          "condition": "a2.5_b2",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 163,
+          "treatment_shots": 3000,
+          "improvement": 0.25909090909090915,
+          "p_raw": 0.0026105468056394194,
+          "p_holm": 0.17229608917220168
+        },
+        {
+          "code": "D4_3",
+          "condition": "a2.5_b2.5",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 181,
+          "treatment_shots": 3000,
+          "improvement": 0.17727272727272725,
+          "p_raw": 0.04378915968619558,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D4_3",
+          "condition": "a2.5_b3",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 176,
+          "treatment_shots": 3000,
+          "improvement": 0.20000000000000007,
+          "p_raw": 0.022145000217279137,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D4_3",
+          "condition": "a3_b1",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 153,
+          "treatment_shots": 3000,
+          "improvement": 0.30454545454545456,
+          "p_raw": 0.0003406296664954131,
+          "p_holm": 0.024865965654165156
+        },
+        {
+          "code": "D4_3",
+          "condition": "a3_b1.5",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 140,
+          "treatment_shots": 3000,
+          "improvement": 0.36363636363636365,
+          "p_raw": 1.3685088928801338e-05,
+          "p_holm": 0.0012042878257345177
+        },
+        {
+          "code": "D4_3",
+          "condition": "a3_b2",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 167,
+          "treatment_shots": 3000,
+          "improvement": 0.24090909090909085,
+          "p_raw": 0.005345017962339273,
+          "p_holm": 0.3207010777403564
+        },
+        {
+          "code": "D4_3",
+          "condition": "a3_b2.5",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 184,
+          "treatment_shots": 3000,
+          "improvement": 0.1636363636363637,
+          "p_raw": 0.06365438420569,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D4_3",
+          "condition": "a3_b3",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 177,
+          "treatment_shots": 3000,
+          "improvement": 0.19545454545454555,
+          "p_raw": 0.02553206503360687,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a1_b1",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 152,
+          "treatment_shots": 3000,
+          "improvement": 0.09523809523809523,
+          "p_raw": 0.3579506423535418,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a1_b1.5",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 160,
+          "treatment_shots": 3000,
+          "improvement": 0.04761904761904756,
+          "p_raw": 0.6495994840055738,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a1_b2",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 148,
+          "treatment_shots": 3000,
+          "improvement": 0.11904761904761907,
+          "p_raw": 0.24770596912324228,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a1_b2.5",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 148,
+          "treatment_shots": 3000,
+          "improvement": 0.11904761904761907,
+          "p_raw": 0.24770596912324228,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a1_b3",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 172,
+          "treatment_shots": 3000,
+          "improvement": -0.023809523809523725,
+          "p_raw": 0.823262320882471,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a1.5_b1",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 136,
+          "treatment_shots": 3000,
+          "improvement": 0.19047619047619047,
+          "p_raw": 0.059610213685614095,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a1.5_b1.5",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 165,
+          "treatment_shots": 3000,
+          "improvement": 0.017857142857142905,
+          "p_raw": 0.8656706445198584,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a1.5_b2",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 137,
+          "treatment_shots": 3000,
+          "improvement": 0.18452380952380953,
+          "p_raw": 0.0684599748411284,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a1.5_b2.5",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 166,
+          "treatment_shots": 3000,
+          "improvement": 0.011904761904761973,
+          "p_raw": 0.910336232136428,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a1.5_b3",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 187,
+          "treatment_shots": 3000,
+          "improvement": -0.11309523809523814,
+          "p_raw": 0.298507079098002,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a2_b1",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 124,
+          "treatment_shots": 3000,
+          "improvement": 0.261904761904762,
+          "p_raw": 0.0082919460926787,
+          "p_holm": 0.48922481946804325
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a2_b1.5",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 161,
+          "treatment_shots": 3000,
+          "improvement": 0.04166666666666663,
+          "p_raw": 0.6913975335526157,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a2_b2",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 152,
+          "treatment_shots": 3000,
+          "improvement": 0.09523809523809523,
+          "p_raw": 0.3579506423535418,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a2_b2.5",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 163,
+          "treatment_shots": 3000,
+          "improvement": 0.029761904761904878,
+          "p_raw": 0.777380567934693,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a2_b3",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 182,
+          "treatment_shots": 3000,
+          "improvement": -0.08333333333333326,
+          "p_raw": 0.4406111319193383,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a2.5_b1",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 156,
+          "treatment_shots": 3000,
+          "improvement": 0.07142857142857151,
+          "p_raw": 0.4930725548857188,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a2.5_b1.5",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 155,
+          "treatment_shots": 3000,
+          "improvement": 0.07738095238095244,
+          "p_raw": 0.45709893199111673,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a2.5_b2",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 174,
+          "treatment_shots": 3000,
+          "improvement": -0.03571428571428581,
+          "p_raw": 0.7383006894775462,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a2.5_b2.5",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 144,
+          "treatment_shots": 3000,
+          "improvement": 0.1428571428571429,
+          "p_raw": 0.16286517752772955,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a2.5_b3",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 156,
+          "treatment_shots": 3000,
+          "improvement": 0.07142857142857151,
+          "p_raw": 0.4930725548857188,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a3_b1",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 161,
+          "treatment_shots": 3000,
+          "improvement": 0.04166666666666663,
+          "p_raw": 0.6913975335526157,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a3_b1.5",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 133,
+          "treatment_shots": 3000,
+          "improvement": 0.20833333333333326,
+          "p_raw": 0.03845647428363956,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a3_b2",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 146,
+          "treatment_shots": 3000,
+          "improvement": 0.13095238095238104,
+          "p_raw": 0.20218469385275584,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a3_b2.5",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 157,
+          "treatment_shots": 3000,
+          "improvement": 0.06547619047619047,
+          "p_raw": 0.5303978416333603,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "a3_b3",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 154,
+          "treatment_shots": 3000,
+          "improvement": 0.08333333333333337,
+          "p_raw": 0.42254904573668184,
+          "p_holm": 1.0
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a1_b1",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 9,
+          "treatment_shots": 3000,
+          "improvement": 0.9243697478991597,
+          "p_raw": 8.519711415489567e-23,
+          "p_holm": 1.6783831488514447e-20
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a1_b1.5",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 12,
+          "treatment_shots": 3000,
+          "improvement": 0.8991596638655462,
+          "p_raw": 3.311761860857683e-21,
+          "p_holm": 6.358582772846751e-19
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a1_b2",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 15,
+          "treatment_shots": 3000,
+          "improvement": 0.8739495798319328,
+          "p_raw": 1.0249701284943283e-19,
+          "p_holm": 1.916694140284394e-17
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a1_b2.5",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 21,
+          "treatment_shots": 3000,
+          "improvement": 0.8235294117647058,
+          "p_raw": 5.2539876487009404e-17,
+          "p_holm": 9.194478385226645e-15
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a1.5_b1",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 16,
+          "treatment_shots": 3000,
+          "improvement": 0.865546218487395,
+          "p_raw": 3.067171766106167e-19,
+          "p_holm": 5.674267767296409e-17
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a1_b3",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 23,
+          "treatment_shots": 3000,
+          "improvement": 0.8067226890756303,
+          "p_raw": 3.5442389750447564e-16,
+          "p_holm": 5.8125519190734e-14
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a1.5_b1.5",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 13,
+          "treatment_shots": 3000,
+          "improvement": 0.8907563025210085,
+          "p_raw": 1.065634794855995e-20,
+          "p_holm": 2.0247061102263905e-18
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a1.5_b2",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 27,
+          "treatment_shots": 3000,
+          "improvement": 0.773109243697479,
+          "p_raw": 1.2746827831595256e-14,
+          "p_holm": 1.937517830402479e-12
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a1.5_b2.5",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 20,
+          "treatment_shots": 3000,
+          "improvement": 0.8319327731092437,
+          "p_raw": 1.961350301246323e-17,
+          "p_holm": 3.491203536218455e-15
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a1.5_b3",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 33,
+          "treatment_shots": 3000,
+          "improvement": 0.7226890756302522,
+          "p_raw": 1.5993184372520787e-12,
+          "p_holm": 2.1430867059177853e-10
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a2_b1",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 16,
+          "treatment_shots": 3000,
+          "improvement": 0.865546218487395,
+          "p_raw": 3.067171766106167e-19,
+          "p_holm": 5.674267767296409e-17
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a2_b1.5",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 21,
+          "treatment_shots": 3000,
+          "improvement": 0.8235294117647058,
+          "p_raw": 5.2539876487009404e-17,
+          "p_holm": 9.194478385226645e-15
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a2_b2",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 22,
+          "treatment_shots": 3000,
+          "improvement": 0.8151260504201681,
+          "p_raw": 1.3785258091266773e-16,
+          "p_holm": 2.3434938755153515e-14
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a2_b2.5",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 21,
+          "treatment_shots": 3000,
+          "improvement": 0.8235294117647058,
+          "p_raw": 5.2539876487009404e-17,
+          "p_holm": 9.194478385226645e-15
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a2_b3",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 33,
+          "treatment_shots": 3000,
+          "improvement": 0.7226890756302522,
+          "p_raw": 1.5993184372520787e-12,
+          "p_holm": 2.1430867059177853e-10
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a2.5_b1",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 15,
+          "treatment_shots": 3000,
+          "improvement": 0.8739495798319328,
+          "p_raw": 1.0249701284943283e-19,
+          "p_holm": 1.916694140284394e-17
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a2.5_b1.5",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 21,
+          "treatment_shots": 3000,
+          "improvement": 0.8235294117647058,
+          "p_raw": 5.2539876487009404e-17,
+          "p_holm": 9.194478385226645e-15
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a2.5_b2",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 29,
+          "treatment_shots": 3000,
+          "improvement": 0.7563025210084033,
+          "p_raw": 6.83928639927155e-14,
+          "p_holm": 1.0053751006929178e-11
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a2.5_b2.5",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 36,
+          "treatment_shots": 3000,
+          "improvement": 0.6974789915966386,
+          "p_raw": 1.432917030769101e-11,
+          "p_holm": 1.8054754587690673e-09
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a2.5_b3",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 39,
+          "treatment_shots": 3000,
+          "improvement": 0.6722689075630253,
+          "p_raw": 1.1188766853263028e-10,
+          "p_holm": 1.3650295560980894e-08
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a3_b1",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 18,
+          "treatment_shots": 3000,
+          "improvement": 0.8487394957983193,
+          "p_raw": 2.5637441007966134e-18,
+          "p_holm": 4.64037682244187e-16
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a3_b1.5",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 22,
+          "treatment_shots": 3000,
+          "improvement": 0.8151260504201681,
+          "p_raw": 1.3785258091266773e-16,
+          "p_holm": 2.3434938755153515e-14
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a3_b2",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 24,
+          "treatment_shots": 3000,
+          "improvement": 0.7983193277310925,
+          "p_raw": 8.933020296875395e-16,
+          "p_holm": 1.447149288093814e-13
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a3_b2.5",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 31,
+          "treatment_shots": 3000,
+          "improvement": 0.7394957983193278,
+          "p_raw": 3.4207359238028794e-13,
+          "p_holm": 4.82323765256206e-11
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "a3_b3",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 41,
+          "treatment_shots": 3000,
+          "improvement": 0.6554621848739496,
+          "p_raw": 4.095536709189608e-10,
+          "p_holm": 4.7508225826599455e-08
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a1_b1",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 7,
+          "treatment_shots": 3000,
+          "improvement": 0.9473684210526315,
+          "p_raw": 4.498295075283059e-27,
+          "p_holm": 8.996590150566118e-25
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a1_b1.5",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 11,
+          "treatment_shots": 3000,
+          "improvement": 0.9172932330827068,
+          "p_raw": 7.744298453787382e-25,
+          "p_holm": 1.5333710938499018e-22
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a1_b2",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 17,
+          "treatment_shots": 3000,
+          "improvement": 0.8721804511278195,
+          "p_raw": 8.637751405586283e-22,
+          "p_holm": 1.6843615240893252e-19
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a1_b2.5",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 26,
+          "treatment_shots": 3000,
+          "improvement": 0.8045112781954887,
+          "p_raw": 7.945811002340221e-18,
+          "p_holm": 1.4223001694188996e-15
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a1.5_b1",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 21,
+          "treatment_shots": 3000,
+          "improvement": 0.8421052631578947,
+          "p_raw": 6.056429981830731e-20,
+          "p_holm": 1.1446652665660083e-17
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a1_b3",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 32,
+          "treatment_shots": 3000,
+          "improvement": 0.7593984962406015,
+          "p_raw": 1.5457311134336449e-15,
+          "p_holm": 2.457712470359495e-13
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a1.5_b1.5",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 18,
+          "treatment_shots": 3000,
+          "improvement": 0.8646616541353384,
+          "p_raw": 2.5771822824904197e-21,
+          "p_holm": 4.9997336280314145e-19
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a1.5_b2",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 21,
+          "treatment_shots": 3000,
+          "improvement": 0.8421052631578947,
+          "p_raw": 6.056429981830731e-20,
+          "p_holm": 1.1446652665660083e-17
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a1.5_b2.5",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 25,
+          "treatment_shots": 3000,
+          "improvement": 0.8120300751879699,
+          "p_raw": 3.1083826780448945e-18,
+          "p_holm": 5.59508882048081e-16
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a1.5_b3",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 33,
+          "treatment_shots": 3000,
+          "improvement": 0.7518796992481204,
+          "p_raw": 3.5138684658888036e-15,
+          "p_holm": 5.55191217610431e-13
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a2_b1",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 16,
+          "treatment_shots": 3000,
+          "improvement": 0.8796992481203008,
+          "p_raw": 2.834649820474481e-22,
+          "p_holm": 5.555913648129984e-20
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a2_b1.5",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 18,
+          "treatment_shots": 3000,
+          "improvement": 0.8646616541353384,
+          "p_raw": 2.5771822824904197e-21,
+          "p_holm": 4.9997336280314145e-19
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a2_b2",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 33,
+          "treatment_shots": 3000,
+          "improvement": 0.7518796992481204,
+          "p_raw": 3.5138684658888036e-15,
+          "p_holm": 5.55191217610431e-13
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a2_b2.5",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 33,
+          "treatment_shots": 3000,
+          "improvement": 0.7518796992481204,
+          "p_raw": 3.5138684658888036e-15,
+          "p_holm": 5.55191217610431e-13
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a2.5_b1",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 8,
+          "treatment_shots": 3000,
+          "improvement": 0.9398496240601504,
+          "p_raw": 1.691729132618834e-26,
+          "p_holm": 3.36654097391148e-24
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a2_b3",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 51,
+          "treatment_shots": 3000,
+          "improvement": 0.6165413533834586,
+          "p_raw": 8.252151019558986e-10,
+          "p_holm": 9.407452162297244e-08
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a2.5_b1.5",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 23,
+          "treatment_shots": 3000,
+          "improvement": 0.8270676691729324,
+          "p_raw": 4.504668776839585e-19,
+          "p_holm": 8.24354386161644e-17
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a2.5_b2",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 29,
+          "treatment_shots": 3000,
+          "improvement": 0.7819548872180451,
+          "p_raw": 1.195009353947473e-16,
+          "p_holm": 2.043465995250179e-14
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a2.5_b2.5",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 35,
+          "treatment_shots": 3000,
+          "improvement": 0.736842105263158,
+          "p_raw": 1.7335282671590038e-14,
+          "p_holm": 2.617627683410096e-12
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a2.5_b3",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 46,
+          "treatment_shots": 3000,
+          "improvement": 0.6541353383458647,
+          "p_raw": 4.058954504080086e-11,
+          "p_holm": 4.992514040018506e-09
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a3_b1",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 19,
+          "treatment_shots": 3000,
+          "improvement": 0.8571428571428572,
+          "p_raw": 7.532046436189983e-21,
+          "p_holm": 1.4386208693122869e-18
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a3_b1.5",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 23,
+          "treatment_shots": 3000,
+          "improvement": 0.8270676691729324,
+          "p_raw": 4.504668776839585e-19,
+          "p_holm": 8.24354386161644e-17
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a3_b2",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 31,
+          "treatment_shots": 3000,
+          "improvement": 0.7669172932330828,
+          "p_raw": 6.692668653985005e-16,
+          "p_holm": 1.0909049905995558e-13
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a3_b2.5",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 38,
+          "treatment_shots": 3000,
+          "improvement": 0.7142857142857143,
+          "p_raw": 1.6983357872916185e-13,
+          "p_holm": 2.4286201758270146e-11
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "a3_b3",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 58,
+          "treatment_shots": 3000,
+          "improvement": 0.5639097744360902,
+          "p_raw": 3.481760430028456e-08,
+          "p_holm": 3.6906660558301637e-06
+        },
+        {
+          "code": "D6_3",
+          "condition": "a1_b1",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 30,
+          "treatment_shots": 3000,
+          "improvement": 0.7222222222222222,
+          "p_raw": 1.8486675520028624e-11,
+          "p_holm": 2.310834440003578e-09
+        },
+        {
+          "code": "D6_3",
+          "condition": "a1_b1.5",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 34,
+          "treatment_shots": 3000,
+          "improvement": 0.6851851851851851,
+          "p_raw": 3.283669427131754e-10,
+          "p_holm": 3.841893229744152e-08
+        },
+        {
+          "code": "D6_3",
+          "condition": "a1_b2",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 53,
+          "treatment_shots": 3000,
+          "improvement": 0.5092592592592592,
+          "p_raw": 1.1130409713825248e-05,
+          "p_holm": 0.0010017368742442723
+        },
+        {
+          "code": "D6_3",
+          "condition": "a1_b2.5",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 57,
+          "treatment_shots": 3000,
+          "improvement": 0.4722222222222222,
+          "p_raw": 5.671216856894602e-05,
+          "p_holm": 0.004582715935081483
+        },
+        {
+          "code": "D6_3",
+          "condition": "a1.5_b1",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 45,
+          "treatment_shots": 3000,
+          "improvement": 0.5833333333333333,
+          "p_raw": 2.476684317689404e-07,
+          "p_holm": 2.427150631335616e-05
+        },
+        {
+          "code": "D6_3",
+          "condition": "a1_b3",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 56,
+          "treatment_shots": 3000,
+          "improvement": 0.4814814814814814,
+          "p_raw": 3.835436366641842e-05,
+          "p_holm": 0.0031450578206463106
+        },
+        {
+          "code": "D6_3",
+          "condition": "a1.5_b1.5",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 43,
+          "treatment_shots": 3000,
+          "improvement": 0.6018518518518519,
+          "p_raw": 8.439566517277614e-08,
+          "p_holm": 8.608357847623166e-06
+        },
+        {
+          "code": "D6_3",
+          "condition": "a1.5_b2",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 54,
+          "treatment_shots": 3000,
+          "improvement": 0.5,
+          "p_raw": 1.6995011537582175e-05,
+          "p_holm": 0.001461570992232067
+        },
+        {
+          "code": "D6_3",
+          "condition": "a1.5_b2.5",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 61,
+          "treatment_shots": 3000,
+          "improvement": 0.43518518518518523,
+          "p_raw": 0.0002450266640553524,
+          "p_holm": 0.01837699980415143
+        },
+        {
+          "code": "D6_3",
+          "condition": "a1.5_b3",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 76,
+          "treatment_shots": 3000,
+          "improvement": 0.2962962962962963,
+          "p_raw": 0.016570680051156448,
+          "p_holm": 0.9445287629159176
+        },
+        {
+          "code": "D6_3",
+          "condition": "a2_b1",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 44,
+          "treatment_shots": 3000,
+          "improvement": 0.5925925925925926,
+          "p_raw": 1.4553908980713721e-07,
+          "p_holm": 1.4553908980713721e-05
+        },
+        {
+          "code": "D6_3",
+          "condition": "a2_b1.5",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 35,
+          "treatment_shots": 3000,
+          "improvement": 0.6759259259259258,
+          "p_raw": 6.465635529003275e-10,
+          "p_holm": 7.435480858353767e-08
+        },
+        {
+          "code": "D6_3",
+          "condition": "a2_b2",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 54,
+          "treatment_shots": 3000,
+          "improvement": 0.5,
+          "p_raw": 1.6995011537582175e-05,
+          "p_holm": 0.001461570992232067
+        },
+        {
+          "code": "D6_3",
+          "condition": "a2_b2.5",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 69,
+          "treatment_shots": 3000,
+          "improvement": 0.36111111111111105,
+          "p_raw": 0.0029237906444827527,
+          "p_holm": 0.18712260124689617
+        },
+        {
+          "code": "D6_3",
+          "condition": "a2_b3",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 77,
+          "treatment_shots": 3000,
+          "improvement": 0.287037037037037,
+          "p_raw": 0.020605465021440537,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D6_3",
+          "condition": "a2.5_b1",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 38,
+          "treatment_shots": 3000,
+          "improvement": 0.6481481481481481,
+          "p_raw": 4.490280962449691e-09,
+          "p_holm": 4.984211868319157e-07
+        },
+        {
+          "code": "D6_3",
+          "condition": "a2.5_b1.5",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 54,
+          "treatment_shots": 3000,
+          "improvement": 0.5,
+          "p_raw": 1.6995011537582175e-05,
+          "p_holm": 0.001461570992232067
+        },
+        {
+          "code": "D6_3",
+          "condition": "a2.5_b2",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 66,
+          "treatment_shots": 3000,
+          "improvement": 0.38888888888888884,
+          "p_raw": 0.001232677652740049,
+          "p_holm": 0.08505475803906339
+        },
+        {
+          "code": "D6_3",
+          "condition": "a2.5_b2.5",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 79,
+          "treatment_shots": 3000,
+          "improvement": 0.2685185185185185,
+          "p_raw": 0.031198588121538893,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D6_3",
+          "condition": "a2.5_b3",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 77,
+          "treatment_shots": 3000,
+          "improvement": 0.287037037037037,
+          "p_raw": 0.020605465021440537,
+          "p_holm": 1.0
+        },
+        {
+          "code": "D6_3",
+          "condition": "a3_b1",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 39,
+          "treatment_shots": 3000,
+          "improvement": 0.6388888888888888,
+          "p_raw": 8.309991328735474e-09,
+          "p_holm": 9.140990461609022e-07
+        },
+        {
+          "code": "D6_3",
+          "condition": "a3_b1.5",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 46,
+          "treatment_shots": 3000,
+          "improvement": 0.5740740740740741,
+          "p_raw": 4.1601378428547196e-07,
+          "p_holm": 3.9937323291405305e-05
+        },
+        {
+          "code": "D6_3",
+          "condition": "a3_b2",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 60,
+          "treatment_shots": 3000,
+          "improvement": 0.4444444444444444,
+          "p_raw": 0.00017248450983098958,
+          "p_holm": 0.013251451630911836
+        },
+        {
+          "code": "D6_3",
+          "condition": "a3_b2.5",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 64,
+          "treatment_shots": 3000,
+          "improvement": 0.40740740740740733,
+          "p_raw": 0.000663786420105103,
+          "p_holm": 0.047128835827462315
+        },
+        {
+          "code": "D6_3",
+          "condition": "a3_b3",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 74,
+          "treatment_shots": 3000,
+          "improvement": 0.31481481481481477,
+          "p_raw": 0.010486399687562877,
+          "p_holm": 0.6082111818786469
+        },
+        {
+          "code": "D8_3",
+          "condition": "a1_b1",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 52,
+          "treatment_shots": 3000,
+          "improvement": 0.6923076923076923,
+          "p_raw": 1.063088441763241e-15,
+          "p_holm": 1.711572391238818e-13
+        },
+        {
+          "code": "D8_3",
+          "condition": "a1_b1.5",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 61,
+          "treatment_shots": 3000,
+          "improvement": 0.6390532544378699,
+          "p_raw": 3.81818181162798e-13,
+          "p_holm": 5.3454545362791723e-11
+        },
+        {
+          "code": "D8_3",
+          "condition": "a1_b2",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 64,
+          "treatment_shots": 3000,
+          "improvement": 0.6213017751479291,
+          "p_raw": 2.277195929736673e-12,
+          "p_holm": 3.005898627252408e-10
+        },
+        {
+          "code": "D8_3",
+          "condition": "a1_b2.5",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 84,
+          "treatment_shots": 3000,
+          "improvement": 0.5029585798816567,
+          "p_raw": 4.7542537965423185e-08,
+          "p_holm": 4.991966486369435e-06
+        },
+        {
+          "code": "D8_3",
+          "condition": "a1_b3",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 85,
+          "treatment_shots": 3000,
+          "improvement": 0.4970414201183432,
+          "p_raw": 7.209816377294948e-08,
+          "p_holm": 7.4261108686137965e-06
+        },
+        {
+          "code": "D8_3",
+          "condition": "a1.5_b1",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 47,
+          "treatment_shots": 3000,
+          "improvement": 0.7218934911242604,
+          "p_raw": 2.7998156800341314e-17,
+          "p_holm": 4.927675596860071e-15
+        },
+        {
+          "code": "D8_3",
+          "condition": "a1.5_b1.5",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 60,
+          "treatment_shots": 3000,
+          "improvement": 0.6449704142011834,
+          "p_raw": 2.0661823885984234e-13,
+          "p_holm": 2.933978991809761e-11
+        },
+        {
+          "code": "D8_3",
+          "condition": "a1.5_b2",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 72,
+          "treatment_shots": 3000,
+          "improvement": 0.5739644970414202,
+          "p_raw": 1.7974632300545407e-10,
+          "p_holm": 2.1749305083659942e-08
+        },
+        {
+          "code": "D8_3",
+          "condition": "a1.5_b2.5",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 82,
+          "treatment_shots": 3000,
+          "improvement": 0.514792899408284,
+          "p_raw": 2.023416952804173e-08,
+          "p_holm": 2.185290309028507e-06
+        },
+        {
+          "code": "D8_3",
+          "condition": "a2_b1",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 72,
+          "treatment_shots": 3000,
+          "improvement": 0.5739644970414202,
+          "p_raw": 1.7974632300545407e-10,
+          "p_holm": 2.1749305083659942e-08
+        },
+        {
+          "code": "D8_3",
+          "condition": "a2_b1.5",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 55,
+          "treatment_shots": 3000,
+          "improvement": 0.6745562130177515,
+          "p_raw": 8.278834413759494e-15,
+          "p_holm": 1.2666616653052026e-12
+        },
+        {
+          "code": "D8_3",
+          "condition": "a1.5_b3",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 116,
+          "treatment_shots": 3000,
+          "improvement": 0.31360946745562124,
+          "p_raw": 0.001296393458083688,
+          "p_holm": 0.08815475514969079
+        },
+        {
+          "code": "D8_3",
+          "condition": "a2_b2",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 80,
+          "treatment_shots": 3000,
+          "improvement": 0.5266272189349113,
+          "p_raw": 8.364070890249287e-09,
+          "p_holm": 9.140990461609022e-07
+        },
+        {
+          "code": "D8_3",
+          "condition": "a2_b2.5",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 99,
+          "treatment_shots": 3000,
+          "improvement": 0.41420118343195267,
+          "p_raw": 1.2157207534910065e-05,
+          "p_holm": 0.0010819914706069957
+        },
+        {
+          "code": "D8_3",
+          "condition": "a2_b3",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 104,
+          "treatment_shots": 3000,
+          "improvement": 0.3846153846153846,
+          "p_raw": 5.657673993927757e-05,
+          "p_holm": 0.004582715935081483
+        },
+        {
+          "code": "D8_3",
+          "condition": "a2.5_b1",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 73,
+          "treatment_shots": 3000,
+          "improvement": 0.5680473372781065,
+          "p_raw": 2.9868374022093623e-10,
+          "p_holm": 3.5244681346070474e-08
+        },
+        {
+          "code": "D8_3",
+          "condition": "a2.5_b1.5",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 83,
+          "treatment_shots": 3000,
+          "improvement": 0.5088757396449703,
+          "p_raw": 3.11278121105464e-08,
+          "p_holm": 3.3306758958284648e-06
+        },
+        {
+          "code": "D8_3",
+          "condition": "a2.5_b2",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 84,
+          "treatment_shots": 3000,
+          "improvement": 0.5029585798816567,
+          "p_raw": 4.7542537965423185e-08,
+          "p_holm": 4.991966486369435e-06
+        },
+        {
+          "code": "D8_3",
+          "condition": "a2.5_b2.5",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 77,
+          "treatment_shots": 3000,
+          "improvement": 0.5443786982248521,
+          "p_raw": 2.101233196760255e-09,
+          "p_holm": 2.374393512339088e-07
+        },
+        {
+          "code": "D8_3",
+          "condition": "a3_b1",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 58,
+          "treatment_shots": 3000,
+          "improvement": 0.6568047337278107,
+          "p_raw": 5.877721851793059e-14,
+          "p_holm": 8.699028340653728e-12
+        },
+        {
+          "code": "D8_3",
+          "condition": "a2.5_b3",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 89,
+          "treatment_shots": 3000,
+          "improvement": 0.47337278106508873,
+          "p_raw": 3.557163257884984e-07,
+          "p_holm": 3.4504483601484345e-05
+        },
+        {
+          "code": "D8_3",
+          "condition": "a3_b1.5",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 77,
+          "treatment_shots": 3000,
+          "improvement": 0.5443786982248521,
+          "p_raw": 2.101233196760255e-09,
+          "p_holm": 2.374393512339088e-07
+        },
+        {
+          "code": "D8_3",
+          "condition": "a3_b2",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 88,
+          "treatment_shots": 3000,
+          "improvement": 0.47928994082840237,
+          "p_raw": 2.411377702776878e-07,
+          "p_holm": 2.3872639257491093e-05
+        },
+        {
+          "code": "D8_3",
+          "condition": "a3_b2.5",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 97,
+          "treatment_shots": 3000,
+          "improvement": 0.42603550295857995,
+          "p_raw": 6.306653949709723e-06,
+          "p_holm": 0.0005802121633732945
+        },
+        {
+          "code": "D8_3",
+          "condition": "a3_b3",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 100,
+          "treatment_shots": 3000,
+          "improvement": 0.40828402366863903,
+          "p_raw": 1.6728344453743692e-05,
+          "p_holm": 0.0014553659674757012
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a1_b1",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 4,
+          "treatment_shots": 3000,
+          "improvement": 0.948051948051948,
+          "p_raw": 3.176712518826823e-16,
+          "p_holm": 5.336877031629062e-14
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a1_b1.5",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 4,
+          "treatment_shots": 3000,
+          "improvement": 0.948051948051948,
+          "p_raw": 3.176712518826823e-16,
+          "p_holm": 5.336877031629062e-14
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a1_b2",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 5,
+          "treatment_shots": 3000,
+          "improvement": 0.935064935064935,
+          "p_raw": 1.1853294390824668e-15,
+          "p_holm": 1.896527102531947e-13
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a1_b2.5",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 8,
+          "treatment_shots": 3000,
+          "improvement": 0.8961038961038961,
+          "p_raw": 4.783944333069413e-14,
+          "p_holm": 7.175916499604119e-12
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a1_b3",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 12,
+          "treatment_shots": 3000,
+          "improvement": 0.8441558441558441,
+          "p_raw": 3.875119469745617e-12,
+          "p_holm": 5.076406505366758e-10
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a1.5_b1",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 4,
+          "treatment_shots": 3000,
+          "improvement": 0.948051948051948,
+          "p_raw": 3.176712518826823e-16,
+          "p_holm": 5.336877031629062e-14
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a1.5_b1.5",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 4,
+          "treatment_shots": 3000,
+          "improvement": 0.948051948051948,
+          "p_raw": 3.176712518826823e-16,
+          "p_holm": 5.336877031629062e-14
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a1.5_b2",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 9,
+          "treatment_shots": 3000,
+          "improvement": 0.8831168831168831,
+          "p_raw": 1.5159545174132702e-13,
+          "p_holm": 2.2132935954233745e-11
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a1.5_b2.5",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 11,
+          "treatment_shots": 3000,
+          "improvement": 0.8571428571428572,
+          "p_raw": 1.3626780137024557e-12,
+          "p_holm": 1.85324209863534e-10
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a1.5_b3",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 12,
+          "treatment_shots": 3000,
+          "improvement": 0.8441558441558441,
+          "p_raw": 3.875119469745617e-12,
+          "p_holm": 5.076406505366758e-10
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a2_b1",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 6,
+          "treatment_shots": 3000,
+          "improvement": 0.922077922077922,
+          "p_raw": 4.236295087223723e-15,
+          "p_holm": 6.566257385196771e-13
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a2_b1.5",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 9,
+          "treatment_shots": 3000,
+          "improvement": 0.8831168831168831,
+          "p_raw": 1.5159545174132702e-13,
+          "p_holm": 2.2132935954233745e-11
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a2_b2",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 10,
+          "treatment_shots": 3000,
+          "improvement": 0.8701298701298701,
+          "p_raw": 4.627754205569884e-13,
+          "p_holm": 6.432578345742139e-11
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a2_b2.5",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 13,
+          "treatment_shots": 3000,
+          "improvement": 0.8311688311688312,
+          "p_raw": 1.0654976055912057e-11,
+          "p_holm": 1.3638369351567433e-09
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a2_b3",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 10,
+          "treatment_shots": 3000,
+          "improvement": 0.8701298701298701,
+          "p_raw": 4.627754205569884e-13,
+          "p_holm": 6.432578345742139e-11
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a2.5_b1",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 6,
+          "treatment_shots": 3000,
+          "improvement": 0.922077922077922,
+          "p_raw": 4.236295087223723e-15,
+          "p_holm": 6.566257385196771e-13
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a2.5_b1.5",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 2,
+          "treatment_shots": 3000,
+          "improvement": 0.974025974025974,
+          "p_raw": 1.9918914968395745e-17,
+          "p_holm": 3.525647949406047e-15
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a2.5_b2",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 12,
+          "treatment_shots": 3000,
+          "improvement": 0.8441558441558441,
+          "p_raw": 3.875119469745617e-12,
+          "p_holm": 5.076406505366758e-10
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a2.5_b2.5",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 9,
+          "treatment_shots": 3000,
+          "improvement": 0.8831168831168831,
+          "p_raw": 1.5159545174132702e-13,
+          "p_holm": 2.2132935954233745e-11
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a3_b1",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 10,
+          "treatment_shots": 3000,
+          "improvement": 0.8701298701298701,
+          "p_raw": 4.627754205569884e-13,
+          "p_holm": 6.432578345742139e-11
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a2.5_b3",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 13,
+          "treatment_shots": 3000,
+          "improvement": 0.8311688311688312,
+          "p_raw": 1.0654976055912057e-11,
+          "p_holm": 1.3638369351567433e-09
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a3_b1.5",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 8,
+          "treatment_shots": 3000,
+          "improvement": 0.8961038961038961,
+          "p_raw": 4.783944333069413e-14,
+          "p_holm": 7.175916499604119e-12
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a3_b2",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 14,
+          "treatment_shots": 3000,
+          "improvement": 0.8181818181818181,
+          "p_raw": 2.835828469166494e-11,
+          "p_holm": 3.5164273017664525e-09
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a3_b2.5",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 11,
+          "treatment_shots": 3000,
+          "improvement": 0.8571428571428572,
+          "p_raw": 1.3626780137024557e-12,
+          "p_holm": 1.85324209863534e-10
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "a3_b3",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 16,
+          "treatment_shots": 3000,
+          "improvement": 0.7922077922077922,
+          "p_raw": 1.829574948994021e-10,
+          "p_holm": 2.177194189302885e-08
+        }
+      ]
+    },
+    "exp30_vs_planar": {
+      "tests": 32,
+      "significant_improvement": 25,
+      "significant_worsening": 0,
+      "negative_direction": 0,
+      "rows": [
+        {
+          "code": "GT_98_6_12",
+          "condition": "sel_two_stage",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 5,
+          "treatment_shots": 3000,
+          "improvement": 0.935064935064935,
+          "p_raw": 1.1853294390824668e-15,
+          "p_holm": 3.0818565416144134e-14
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "sel_wire0.5",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 7,
+          "treatment_shots": 3000,
+          "improvement": 0.9090909090909091,
+          "p_raw": 1.4524095127459534e-14,
+          "p_holm": 3.485782830590288e-13
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "sel_swap",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 9,
+          "treatment_shots": 3000,
+          "improvement": 0.8831168831168831,
+          "p_raw": 1.5159545174132702e-13,
+          "p_holm": 3.3350999383091944e-12
+        },
+        {
+          "code": "GT_98_6_12",
+          "condition": "sel_random",
+          "base_failures": 77,
+          "base_shots": 3000,
+          "treatment_failures": 18,
+          "treatment_shots": 3000,
+          "improvement": 0.7662337662337663,
+          "p_raw": 1.0489979267851676e-09,
+          "p_holm": 1.7832964755347848e-08
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "sel_swap",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 12,
+          "treatment_shots": 3000,
+          "improvement": 0.9097744360902256,
+          "p_raw": 2.6396554598406905e-24,
+          "p_holm": 8.44689747149021e-23
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "sel_wire0.5",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 24,
+          "treatment_shots": 3000,
+          "improvement": 0.8195488721804511,
+          "p_raw": 1.1942433737468043e-18,
+          "p_holm": 3.343881446491052e-17
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "sel_two_stage",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 23,
+          "treatment_shots": 3000,
+          "improvement": 0.8270676691729324,
+          "p_raw": 4.504668776839585e-19,
+          "p_holm": 1.3063539452834795e-17
+        },
+        {
+          "code": "GT_90_8_10",
+          "condition": "sel_random",
+          "base_failures": 133,
+          "base_shots": 3000,
+          "treatment_failures": 44,
+          "treatment_shots": 3000,
+          "improvement": 0.6691729323308271,
+          "p_raw": 1.116989564210409e-11,
+          "p_holm": 2.2339791284208181e-10
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "sel_swap",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 11,
+          "treatment_shots": 3000,
+          "improvement": 0.907563025210084,
+          "p_raw": 1.003498884316425e-21,
+          "p_holm": 3.1108465413809176e-20
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "sel_wire0.5",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 16,
+          "treatment_shots": 3000,
+          "improvement": 0.865546218487395,
+          "p_raw": 3.067171766106167e-19,
+          "p_holm": 9.201515298318501e-18
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "sel_two_stage",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 19,
+          "treatment_shots": 3000,
+          "improvement": 0.8403361344537815,
+          "p_raw": 7.16832215794003e-18,
+          "p_holm": 1.9354469826438083e-16
+        },
+        {
+          "code": "GT_78_4_10",
+          "condition": "sel_random",
+          "base_failures": 119,
+          "base_shots": 3000,
+          "treatment_failures": 29,
+          "treatment_shots": 3000,
+          "improvement": 0.7563025210084033,
+          "p_raw": 6.83928639927155e-14,
+          "p_holm": 1.5730358718324564e-12
+        },
+        {
+          "code": "D8_3",
+          "condition": "sel_swap",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 71,
+          "treatment_shots": 3000,
+          "improvement": 0.5798816568047338,
+          "p_raw": 1.0728184750868474e-10,
+          "p_holm": 1.9310732551563253e-09
+        },
+        {
+          "code": "D8_3",
+          "condition": "sel_wire0.5",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 53,
+          "treatment_shots": 3000,
+          "improvement": 0.6863905325443787,
+          "p_raw": 2.1294383900757547e-15,
+          "p_holm": 5.323595975189387e-14
+        },
+        {
+          "code": "D8_3",
+          "condition": "sel_two_stage",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 68,
+          "treatment_shots": 3000,
+          "improvement": 0.5976331360946745,
+          "p_raw": 2.1685848992666426e-11,
+          "p_holm": 4.120311308606621e-10
+        },
+        {
+          "code": "D8_3",
+          "condition": "sel_random",
+          "base_failures": 169,
+          "base_shots": 3000,
+          "treatment_failures": 129,
+          "treatment_shots": 3000,
+          "improvement": 0.23668639053254448,
+          "p_raw": 0.01745805189295425,
+          "p_holm": 0.11971165598969932
+        },
+        {
+          "code": "D6_3",
+          "condition": "sel_swap",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 42,
+          "treatment_shots": 3000,
+          "improvement": 0.611111111111111,
+          "p_raw": 4.828081592582507e-08,
+          "p_holm": 7.724930548132011e-07
+        },
+        {
+          "code": "D6_3",
+          "condition": "sel_two_stage",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 29,
+          "treatment_shots": 3000,
+          "improvement": 0.7314814814814814,
+          "p_raw": 8.621067327025384e-12,
+          "p_holm": 1.8104241386753306e-10
+        },
+        {
+          "code": "D6_3",
+          "condition": "sel_wire0.5",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 51,
+          "treatment_shots": 3000,
+          "improvement": 0.5277777777777777,
+          "p_raw": 4.616380548185893e-06,
+          "p_holm": 6.46293276746025e-05
+        },
+        {
+          "code": "D6_3",
+          "condition": "sel_random",
+          "base_failures": 108,
+          "base_shots": 3000,
+          "treatment_failures": 54,
+          "treatment_shots": 3000,
+          "improvement": 0.5,
+          "p_raw": 1.6995011537582175e-05,
+          "p_holm": 0.00022093514998856826
+        },
+        {
+          "code": "D4_3",
+          "condition": "sel_swap",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 153,
+          "treatment_shots": 3000,
+          "improvement": 0.30454545454545456,
+          "p_raw": 0.0003406296664954131,
+          "p_holm": 0.003065666998458718
+        },
+        {
+          "code": "D4_3",
+          "condition": "sel_wire0.5",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 131,
+          "treatment_shots": 3000,
+          "improvement": 0.40454545454545454,
+          "p_raw": 9.789190734246724e-07,
+          "p_holm": 1.4683786101370086e-05
+        },
+        {
+          "code": "D4_3",
+          "condition": "sel_two_stage",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 147,
+          "treatment_shots": 3000,
+          "improvement": 0.3318181818181818,
+          "p_raw": 8.398197787958278e-05,
+          "p_holm": 0.0010077837345549934
+        },
+        {
+          "code": "D4_3",
+          "condition": "sel_random",
+          "base_failures": 220,
+          "base_shots": 3000,
+          "treatment_failures": 150,
+          "treatment_shots": 3000,
+          "improvement": 0.3181818181818181,
+          "p_raw": 0.00017209677442742643,
+          "p_holm": 0.0017209677442742643
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "sel_swap",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 118,
+          "treatment_shots": 3000,
+          "improvement": 0.2848484848484849,
+          "p_raw": 0.004207446516963567,
+          "p_holm": 0.03365957213570853
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "sel_wire0.5",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 131,
+          "treatment_shots": 3000,
+          "improvement": 0.20606060606060606,
+          "p_raw": 0.04267903525172168,
+          "p_holm": 0.2133951762586084
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "sel_two_stage",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 103,
+          "treatment_shots": 3000,
+          "improvement": 0.37575757575757573,
+          "p_raw": 0.00010672194089343524,
+          "p_holm": 0.0011739413498277876
+        },
+        {
+          "code": "GT_24_4_4",
+          "condition": "sel_random",
+          "base_failures": 165,
+          "base_shots": 3000,
+          "treatment_failures": 144,
+          "treatment_shots": 3000,
+          "improvement": 0.1272727272727272,
+          "p_raw": 0.21995339872198638,
+          "p_holm": 0.8087387754110233
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "sel_swap",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 151,
+          "treatment_shots": 3000,
+          "improvement": 0.10119047619047616,
+          "p_raw": 0.32798749887487855,
+          "p_holm": 0.8087387754110233
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "sel_wire0.5",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 146,
+          "treatment_shots": 3000,
+          "improvement": 0.13095238095238104,
+          "p_raw": 0.20218469385275584,
+          "p_holm": 0.8087387754110233
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "sel_two_stage",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 153,
+          "treatment_shots": 3000,
+          "improvement": 0.08928571428571441,
+          "p_raw": 0.3894833960673588,
+          "p_holm": 0.8087387754110233
+        },
+        {
+          "code": "GT_12_4_2",
+          "condition": "sel_random",
+          "base_failures": 168,
+          "base_shots": 3000,
+          "treatment_failures": 128,
+          "treatment_shots": 3000,
+          "improvement": 0.23809523809523814,
+          "p_raw": 0.017101665141385617,
+          "p_holm": 0.11971165598969932
+        }
+      ]
+    }
+  },
+  "aggregates": {
+    "swaps": {
+      "marginal_greedy": {
+        "count": 105,
+        "mean": 0.4086502271687425,
+        "minimum": 0.10569105691056913,
+        "maximum": 0.5991157321931785
+      },
+      "random_greedy": {
+        "count": 105,
+        "mean": 0.3428319539172793,
+        "minimum": 0.06356275303643721,
+        "maximum": 0.5525459139053541
+      },
+      "longest_greedy": {
+        "count": 105,
+        "mean": 0.3139166455331637,
+        "minimum": 0.04878048780487809,
+        "maximum": 0.48955397920513066
+      },
+      "marginal_sabre": {
+        "count": 105,
+        "mean": 0.3952809132799066,
+        "minimum": 0.05128205128205132,
+        "maximum": 0.5463211790331249
+      },
+      "marginal_beats_random_count": 103
+    },
+    "fault_audit_totals": [
+      2379,
+      0
+    ],
+    "routing": {
+      "configurations": 480,
+      "selected": 5368,
+      "reported_routed": 5368,
+      "tier_counts": {
+        "2": 476,
+        "3": 4
+      },
+      "l6_configs": 24,
+      "l6_tiers": {
+        "2": 24
+      },
+      "l6_max_raw_vertices": 10
+    }
+  },
+  "hardware_graph_checks": [
+    {
+      "code": "GT_12_4_2",
+      "code_qubits": 24,
+      "grid_qubits": 36,
+      "used_extra_sites": 2,
+      "operations_using_extra_sites": 20,
+      "used_planar_edges_missing_from_HAL": 5
+    },
+    {
+      "code": "D4_3",
+      "code_qubits": 68,
+      "grid_qubits": 100,
+      "used_extra_sites": 7,
+      "operations_using_extra_sites": 214,
+      "used_planar_edges_missing_from_HAL": 14
+    },
+    {
+      "code": "D6_3",
+      "code_qubits": 102,
+      "grid_qubits": 144,
+      "used_extra_sites": 14,
+      "operations_using_extra_sites": 272,
+      "used_planar_edges_missing_from_HAL": 30
+    },
+    {
+      "code": "D8_3",
+      "code_qubits": 136,
+      "grid_qubits": 169,
+      "used_extra_sites": 10,
+      "operations_using_extra_sites": 206,
+      "used_planar_edges_missing_from_HAL": 21
+    },
+    {
+      "code": "GT_98_6_12",
+      "code_qubits": 196,
+      "grid_qubits": 225,
+      "used_extra_sites": 6,
+      "operations_using_extra_sites": 200,
+      "used_planar_edges_missing_from_HAL": 12
+    }
+  ],
+  "provenance": [
+    {
+      "experiment": "exp15",
+      "meta": "foldq\\experiments\\results\\exp15\\results.json",
+      "recorded_hashes": {
+        "foldq/routing/router.py": "f9338e59eb79",
+        "foldq/optimization/crosslayer_select.py": "0383d52b8bc0",
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/experiments/exp15_hal_full.py": "b3900eeb461e"
+      },
+      "comparison": {
+        "foldq/routing/router.py": {
+          "recorded": "f9338e59eb79",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "0383d52b8bc0",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/experiments/exp15_hal_full.py": {
+          "recorded": "b3900eeb461e",
+          "current": "b3900eeb461e"
+        }
+      }
+    },
+    {
+      "experiment": "exp20",
+      "run_metadata_found": false
+    },
+    {
+      "experiment": "exp21",
+      "run_metadata_found": false
+    },
+    {
+      "experiment": "exp25",
+      "meta": "foldq\\experiments\\results\\exp25\\meta_20261103_001222.json",
+      "recorded_hashes": {
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/codes/gf2.py": "259995e98084",
+        "foldq/routing/router.py": "f9338e59eb79",
+        "foldq/optimization/crosslayer_select.py": "0383d52b8bc0",
+        "foldq/simulation/memory_circuit.py": "c12ca557a5df",
+        "foldq/simulation/bposd.py": "f046fadb9b86",
+        "foldq/experiments/exp25_ler_calibrated.py": "720275dc2d6b"
+      },
+      "comparison": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/codes/gf2.py": {
+          "recorded": "259995e98084",
+          "current": "259995e98084"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "f9338e59eb79",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "0383d52b8bc0",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "c12ca557a5df",
+          "current": "3692ca668a52"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp25_ler_calibrated.py": {
+          "recorded": "720275dc2d6b",
+          "current": "720275dc2d6b"
+        }
+      }
+    },
+    {
+      "experiment": "exp26",
+      "meta": "foldq\\experiments\\results\\exp26\\meta_audit_20261103_230528.json",
+      "recorded_hashes": {
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/codes/gf2.py": "259995e98084",
+        "foldq/routing/router.py": "f9338e59eb79",
+        "foldq/optimization/crosslayer_select.py": "0383d52b8bc0",
+        "foldq/optimization/layouts.py": "81bcc2fa2930",
+        "foldq/simulation/memory_circuit.py": "c12ca557a5df",
+        "foldq/simulation/bposd.py": "f046fadb9b86",
+        "foldq/experiments/exp26_ler_audit.py": "20b80f52f271"
+      },
+      "comparison": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/codes/gf2.py": {
+          "recorded": "259995e98084",
+          "current": "259995e98084"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "f9338e59eb79",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "0383d52b8bc0",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "c12ca557a5df",
+          "current": "3692ca668a52"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp26_ler_audit.py": {
+          "recorded": "20b80f52f271",
+          "current": "96c61e1cf4b9"
+        }
+      }
+    },
+    {
+      "experiment": "exp26",
+      "meta": "foldq\\experiments\\results\\exp26\\meta_audit_20261103_230547.json",
+      "recorded_hashes": {
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/codes/gf2.py": "259995e98084",
+        "foldq/routing/router.py": "f9338e59eb79",
+        "foldq/optimization/crosslayer_select.py": "0383d52b8bc0",
+        "foldq/optimization/layouts.py": "81bcc2fa2930",
+        "foldq/simulation/memory_circuit.py": "c12ca557a5df",
+        "foldq/simulation/bposd.py": "f046fadb9b86",
+        "foldq/experiments/exp26_ler_audit.py": "9a776b40e692"
+      },
+      "comparison": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/codes/gf2.py": {
+          "recorded": "259995e98084",
+          "current": "259995e98084"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "f9338e59eb79",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "0383d52b8bc0",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "c12ca557a5df",
+          "current": "3692ca668a52"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp26_ler_audit.py": {
+          "recorded": "9a776b40e692",
+          "current": "96c61e1cf4b9"
+        }
+      }
+    },
+    {
+      "experiment": "exp26",
+      "meta": "foldq\\experiments\\results\\exp26\\meta_audit_20261103_230636.json",
+      "recorded_hashes": {
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/codes/gf2.py": "259995e98084",
+        "foldq/routing/router.py": "f9338e59eb79",
+        "foldq/optimization/crosslayer_select.py": "0383d52b8bc0",
+        "foldq/optimization/layouts.py": "81bcc2fa2930",
+        "foldq/simulation/memory_circuit.py": "c12ca557a5df",
+        "foldq/simulation/bposd.py": "f046fadb9b86",
+        "foldq/experiments/exp26_ler_audit.py": "d0cfff9c0240"
+      },
+      "comparison": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/codes/gf2.py": {
+          "recorded": "259995e98084",
+          "current": "259995e98084"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "f9338e59eb79",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "0383d52b8bc0",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "c12ca557a5df",
+          "current": "3692ca668a52"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp26_ler_audit.py": {
+          "recorded": "d0cfff9c0240",
+          "current": "96c61e1cf4b9"
+        }
+      }
+    },
+    {
+      "experiment": "exp26",
+      "meta": "foldq\\experiments\\results\\exp26\\meta_audit_20261103_230728.json",
+      "recorded_hashes": {
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/codes/gf2.py": "259995e98084",
+        "foldq/routing/router.py": "f9338e59eb79",
+        "foldq/optimization/crosslayer_select.py": "0383d52b8bc0",
+        "foldq/optimization/layouts.py": "81bcc2fa2930",
+        "foldq/simulation/memory_circuit.py": "c12ca557a5df",
+        "foldq/simulation/bposd.py": "f046fadb9b86",
+        "foldq/experiments/exp26_ler_audit.py": "d0cfff9c0240"
+      },
+      "comparison": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/codes/gf2.py": {
+          "recorded": "259995e98084",
+          "current": "259995e98084"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "f9338e59eb79",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "0383d52b8bc0",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "c12ca557a5df",
+          "current": "3692ca668a52"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp26_ler_audit.py": {
+          "recorded": "d0cfff9c0240",
+          "current": "96c61e1cf4b9"
+        }
+      }
+    },
+    {
+      "experiment": "exp26",
+      "meta": "foldq\\experiments\\results\\exp26\\meta_fixp_20261104_001505.json",
+      "recorded_hashes": {
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/codes/gf2.py": "259995e98084",
+        "foldq/routing/router.py": "f9338e59eb79",
+        "foldq/optimization/crosslayer_select.py": "0383d52b8bc0",
+        "foldq/optimization/layouts.py": "81bcc2fa2930",
+        "foldq/simulation/memory_circuit.py": "c12ca557a5df",
+        "foldq/simulation/bposd.py": "f046fadb9b86",
+        "foldq/experiments/exp26_ler_audit.py": "d0cfff9c0240"
+      },
+      "comparison": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/codes/gf2.py": {
+          "recorded": "259995e98084",
+          "current": "259995e98084"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "f9338e59eb79",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "0383d52b8bc0",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "c12ca557a5df",
+          "current": "3692ca668a52"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp26_ler_audit.py": {
+          "recorded": "d0cfff9c0240",
+          "current": "96c61e1cf4b9"
+        }
+      }
+    },
+    {
+      "experiment": "exp26",
+      "meta": "foldq\\experiments\\results\\exp26\\meta_fixp_20261104_042523.json",
+      "recorded_hashes": {
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/codes/gf2.py": "259995e98084",
+        "foldq/routing/router.py": "f9338e59eb79",
+        "foldq/optimization/crosslayer_select.py": "0383d52b8bc0",
+        "foldq/optimization/layouts.py": "81bcc2fa2930",
+        "foldq/simulation/memory_circuit.py": "c12ca557a5df",
+        "foldq/simulation/bposd.py": "f046fadb9b86",
+        "foldq/experiments/exp26_ler_audit.py": "96c61e1cf4b9"
+      },
+      "comparison": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/codes/gf2.py": {
+          "recorded": "259995e98084",
+          "current": "259995e98084"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "f9338e59eb79",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "0383d52b8bc0",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "c12ca557a5df",
+          "current": "3692ca668a52"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp26_ler_audit.py": {
+          "recorded": "96c61e1cf4b9",
+          "current": "96c61e1cf4b9"
+        }
+      }
+    },
+    {
+      "experiment": "exp26",
+      "meta": "foldq\\experiments\\results\\exp26\\meta_summarize_20261105_105240.json",
+      "recorded_hashes": {
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/codes/gf2.py": "259995e98084",
+        "foldq/routing/router.py": "f9338e59eb79",
+        "foldq/optimization/crosslayer_select.py": "0383d52b8bc0",
+        "foldq/optimization/layouts.py": "81bcc2fa2930",
+        "foldq/simulation/memory_circuit.py": "c12ca557a5df",
+        "foldq/simulation/bposd.py": "f046fadb9b86",
+        "foldq/experiments/exp26_ler_audit.py": "96c61e1cf4b9"
+      },
+      "comparison": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/codes/gf2.py": {
+          "recorded": "259995e98084",
+          "current": "259995e98084"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "f9338e59eb79",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "0383d52b8bc0",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "c12ca557a5df",
+          "current": "3692ca668a52"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp26_ler_audit.py": {
+          "recorded": "96c61e1cf4b9",
+          "current": "96c61e1cf4b9"
+        }
+      }
+    },
+    {
+      "experiment": "exp26",
+      "meta": "foldq\\experiments\\results\\exp26\\meta_xdet_20261104_003851.json",
+      "recorded_hashes": {
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/codes/gf2.py": "259995e98084",
+        "foldq/routing/router.py": "f9338e59eb79",
+        "foldq/optimization/crosslayer_select.py": "0383d52b8bc0",
+        "foldq/optimization/layouts.py": "81bcc2fa2930",
+        "foldq/simulation/memory_circuit.py": "c12ca557a5df",
+        "foldq/simulation/bposd.py": "f046fadb9b86",
+        "foldq/experiments/exp26_ler_audit.py": "d0cfff9c0240"
+      },
+      "comparison": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/codes/gf2.py": {
+          "recorded": "259995e98084",
+          "current": "259995e98084"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "f9338e59eb79",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "0383d52b8bc0",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "c12ca557a5df",
+          "current": "3692ca668a52"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp26_ler_audit.py": {
+          "recorded": "d0cfff9c0240",
+          "current": "96c61e1cf4b9"
+        }
+      }
+    },
+    {
+      "experiment": "exp26",
+      "meta": "foldq\\experiments\\results\\exp26\\meta_xdet_20261104_051334.json",
+      "recorded_hashes": {
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/codes/gf2.py": "259995e98084",
+        "foldq/routing/router.py": "f9338e59eb79",
+        "foldq/optimization/crosslayer_select.py": "0383d52b8bc0",
+        "foldq/optimization/layouts.py": "81bcc2fa2930",
+        "foldq/simulation/memory_circuit.py": "c12ca557a5df",
+        "foldq/simulation/bposd.py": "f046fadb9b86",
+        "foldq/experiments/exp26_ler_audit.py": "96c61e1cf4b9"
+      },
+      "comparison": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/codes/gf2.py": {
+          "recorded": "259995e98084",
+          "current": "259995e98084"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "f9338e59eb79",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "0383d52b8bc0",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "c12ca557a5df",
+          "current": "3692ca668a52"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp26_ler_audit.py": {
+          "recorded": "96c61e1cf4b9",
+          "current": "96c61e1cf4b9"
+        }
+      }
+    },
+    {
+      "experiment": "exp26",
+      "meta": "foldq\\experiments\\results\\exp26\\meta_xdet_20261105_085257.json",
+      "recorded_hashes": {
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/codes/gf2.py": "259995e98084",
+        "foldq/routing/router.py": "f9338e59eb79",
+        "foldq/optimization/crosslayer_select.py": "0383d52b8bc0",
+        "foldq/optimization/layouts.py": "81bcc2fa2930",
+        "foldq/simulation/memory_circuit.py": "c12ca557a5df",
+        "foldq/simulation/bposd.py": "f046fadb9b86",
+        "foldq/experiments/exp26_ler_audit.py": "96c61e1cf4b9"
+      },
+      "comparison": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/codes/gf2.py": {
+          "recorded": "259995e98084",
+          "current": "259995e98084"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "f9338e59eb79",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "0383d52b8bc0",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "c12ca557a5df",
+          "current": "3692ca668a52"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp26_ler_audit.py": {
+          "recorded": "96c61e1cf4b9",
+          "current": "96c61e1cf4b9"
+        }
+      }
+    },
+    {
+      "experiment": "exp27",
+      "meta": "foldq\\experiments\\results\\exp27\\meta.json",
+      "recorded_hashes": "64f283f050e4",
+      "comparison": {}
+    },
+    {
+      "experiment": "exp28",
+      "meta": "foldq\\experiments\\results\\exp28\\meta.json",
+      "recorded_hashes": "9d21d613ea50",
+      "comparison": {}
+    },
+    {
+      "experiment": "exp28b",
+      "run_metadata_found": false
+    },
+    {
+      "experiment": "exp29",
+      "run_metadata_found": false
+    },
+    {
+      "experiment": "exp30",
+      "run_metadata_found": false
+    },
+    {
+      "experiment": "exp31b",
+      "meta": "foldq\\experiments\\results\\exp31b\\meta.json",
+      "recorded_hashes": {
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/routing/router.py": "3f0d1a6f5145",
+        "foldq/optimization/crosslayer_select.py": "13001ee4ef8d",
+        "foldq/optimization/layouts.py": "81bcc2fa2930",
+        "foldq/simulation/memory_circuit.py": "3692ca668a52",
+        "foldq/simulation/bposd.py": "f046fadb9b86",
+        "foldq/experiments/exp31b_scale_ler.py": "4d1c1f7376de"
+      },
+      "comparison": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "3f0d1a6f5145",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "13001ee4ef8d",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "3692ca668a52",
+          "current": "3692ca668a52"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp31b_scale_ler.py": {
+          "recorded": "4d1c1f7376de",
+          "current": "4d1c1f7376de"
+        }
+      }
+    },
+    {
+      "experiment": "exp31c",
+      "run_metadata_found": false
+    },
+    {
+      "experiment": "exp32",
+      "meta": "foldq\\experiments\\results\\exp32\\meta.json",
+      "recorded_hashes": {
+        "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+        "foldq/routing/router.py": "3f0d1a6f5145",
+        "foldq/optimization/crosslayer_select.py": "13001ee4ef8d",
+        "foldq/optimization/layouts.py": "81bcc2fa2930",
+        "foldq/simulation/memory_circuit.py": "3692ca668a52",
+        "foldq/simulation/bposd.py": "f046fadb9b86",
+        "foldq/experiments/exp32_sabre_ler.py": "99b1e63a9027"
+      },
+      "comparison": {
+        "foldq/codes/hal_all_codes.py": {
+          "recorded": "1cd5d6a5a0c3",
+          "current": "1cd5d6a5a0c3"
+        },
+        "foldq/routing/router.py": {
+          "recorded": "3f0d1a6f5145",
+          "current": "3f0d1a6f5145"
+        },
+        "foldq/optimization/crosslayer_select.py": {
+          "recorded": "13001ee4ef8d",
+          "current": "13001ee4ef8d"
+        },
+        "foldq/optimization/layouts.py": {
+          "recorded": "81bcc2fa2930",
+          "current": "81bcc2fa2930"
+        },
+        "foldq/simulation/memory_circuit.py": {
+          "recorded": "3692ca668a52",
+          "current": "3692ca668a52"
+        },
+        "foldq/simulation/bposd.py": {
+          "recorded": "f046fadb9b86",
+          "current": "f046fadb9b86"
+        },
+        "foldq/experiments/exp32_sabre_ler.py": {
+          "recorded": "99b1e63a9027",
+          "current": "99b1e63a9027"
+        }
+      }
+    }
+  ],
+  "exact_adapter_collisions": [
+    {
+      "code": "D4_3",
+      "original_adapter": true,
+      "tiers": 2,
+      "selected": 7,
+      "reported_routed": 7,
+      "interior_collision_pairs": 5,
+      "examples": [
+        {
+          "tier": 0,
+          "edge1": [
+            16,
+            29
+          ],
+          "edge2": [
+            21,
+            62
+          ],
+          "interior_collision": [
+            [
+              2,
+              2,
+              0
+            ]
+          ],
+          "routes1": [
+            [
+              [
+                3,
+                2,
+                0
+              ],
+              [
+                2,
+                2,
+                0
+              ],
+              [
+                1,
+                2,
+                0
+              ]
+            ]
+          ],
+          "routes2": [
+            [
+              [
+                1,
+                4,
+                0
+              ],
+              [
+                1,
+                3,
+                0
+              ],
+              [
+                2,
+                2,
+                0
+              ],
+              [
+                3,
+                1,
+                0
+              ],
+              [
+                4,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        {
+          "tier": 0,
+          "edge1": [
+            23,
+            56
+          ],
+          "edge2": [
+            29,
+            43
+          ],
+          "interior_collision": [
+            [
+              0,
+              3,
+              0
+            ]
+          ],
+          "routes1": [
+            [
+              [
+                0,
+                4,
+                0
+              ],
+              [
+                0,
+                3,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ]
+            ]
+          ],
+          "routes2": [
+            [
+              [
+                1,
+                2,
+                0
+              ],
+              [
+                0,
+                3,
+                0
+              ],
+              [
+                0,
+                4,
+                0
+              ],
+              [
+                0,
+                5,
+                0
+              ],
+              [
+                0,
+                6,
+                0
+              ]
+            ]
+          ]
+        },
+        {
+          "tier": 0,
+          "edge1": [
+            31,
+            53
+          ],
+          "edge2": [
+            9,
+            46
+          ],
+          "interior_collision": [
+            [
+              6,
+              6,
+              0
+            ]
+          ],
+          "routes1": [
+            [
+              [
+                5,
+                6,
+                0
+              ],
+              [
+                6,
+                6,
+                0
+              ],
+              [
+                7,
+                6,
+                0
+              ]
+            ]
+          ],
+          "routes2": [
+            [
+              [
+                8,
+                7,
+                0
+              ],
+              [
+                7,
+                6,
+                0
+              ],
+              [
+                6,
+                6,
+                0
+              ],
+              [
+                5,
+                6,
+                0
+              ],
+              [
+                4,
+                6,
+                0
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GT_98_6_12",
+      "original_adapter": true,
+      "tiers": 2,
+      "selected": 20,
+      "reported_routed": 20,
+      "interior_collision_pairs": 7,
+      "examples": [
+        {
+          "tier": 0,
+          "edge1": [
+            47,
+            90
+          ],
+          "edge2": [
+            95,
+            152
+          ],
+          "interior_collision": [
+            [
+              5,
+              2,
+              0
+            ]
+          ],
+          "routes1": [
+            [
+              [
+                6,
+                2,
+                0
+              ],
+              [
+                5,
+                2,
+                0
+              ],
+              [
+                4,
+                2,
+                0
+              ]
+            ]
+          ],
+          "routes2": [
+            [
+              [
+                2,
+                2,
+                0
+              ],
+              [
+                3,
+                2,
+                0
+              ],
+              [
+                4,
+                2,
+                0
+              ],
+              [
+                5,
+                2,
+                0
+              ],
+              [
+                6,
+                2,
+                0
+              ],
+              [
+                7,
+                3,
+                0
+              ]
+            ]
+          ]
+        },
+        {
+          "tier": 0,
+          "edge1": [
+            55,
+            74
+          ],
+          "edge2": [
+            18,
+            109
+          ],
+          "interior_collision": [
+            [
+              14,
+              8,
+              0
+            ]
+          ],
+          "routes1": [
+            [
+              [
+                15,
+                8,
+                0
+              ],
+              [
+                14,
+                8,
+                0
+              ],
+              [
+                13,
+                8,
+                0
+              ]
+            ]
+          ],
+          "routes2": [
+            [
+              [
+                13,
+                11,
+                0
+              ],
+              [
+                13,
+                10,
+                0
+              ],
+              [
+                13,
+                9,
+                0
+              ],
+              [
+                14,
+                8,
+                0
+              ],
+              [
+                14,
+                7,
+                0
+              ],
+              [
+                15,
+                6,
+                0
+              ]
+            ]
+          ]
+        },
+        {
+          "tier": 0,
+          "edge1": [
+            88,
+            104
+          ],
+          "edge2": [
+            18,
+            109
+          ],
+          "interior_collision": [
+            [
+              14,
+              7,
+              0
+            ]
+          ],
+          "routes1": [
+            [
+              [
+                15,
+                7,
+                0
+              ],
+              [
+                14,
+                7,
+                0
+              ],
+              [
+                13,
+                7,
+                0
+              ]
+            ]
+          ],
+          "routes2": [
+            [
+              [
+                13,
+                11,
+                0
+              ],
+              [
+                13,
+                10,
+                0
+              ],
+              [
+                13,
+                9,
+                0
+              ],
+              [
+                14,
+                8,
+                0
+              ],
+              [
+                14,
+                7,
+                0
+              ],
+              [
+                15,
+                6,
+                0
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

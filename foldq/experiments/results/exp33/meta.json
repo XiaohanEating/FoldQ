@@ -1,0 +1,24 @@
+{
+ "k_pcts": [
+  0.02,
+  0.05
+ ],
+ "l_max": 6,
+ "alpha": 1.5,
+ "routing": "HAL + independent collision acceptance (P0 fix)",
+ "source_sha256_12": {
+  "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+  "foldq/routing/router.py": "3f0d1a6f5145",
+  "foldq/optimization/crosslayer_select.py": "13001ee4ef8d",
+  "foldq/optimization/layouts.py": "81bcc2fa2930",
+  "foldq/simulation/memory_circuit.py": "8a92591dc7d7",
+  "foldq/simulation/bposd.py": "f046fadb9b86",
+  "foldq/experiments/exp33_workpoint_ler.py": "7b7058b084e7",
+  "HAL/foldq/experiments/exp27_hal_routing.py": "b39d387539a9",
+  "HAL/hal/routing/straightline.py": "d76f0af61207",
+  "HAL/hal/routing/astar.py": "bd695806d0e0",
+  "HAL/hal/routing/routing_algo.py": "4d4843e7fe1d",
+  "HAL/hal/hal.py": "e74c7e3627ab"
+ },
+ "started": "2026-11-07 10:10:37"
+}

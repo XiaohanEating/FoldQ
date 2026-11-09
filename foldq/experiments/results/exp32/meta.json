@@ -1,0 +1,22 @@
+{
+ "codes": [
+  "D4_3",
+  "D6_3",
+  "D8_3",
+  "GT_98_6_12"
+ ],
+ "k_pct": 0.1,
+ "l_max": 6,
+ "alpha": 1.5,
+ "sabre": "qiskit SabreSwap decay seed=0 trials=20 双向耦合图",
+ "source_sha256_12": {
+  "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+  "foldq/routing/router.py": "3f0d1a6f5145",
+  "foldq/optimization/crosslayer_select.py": "13001ee4ef8d",
+  "foldq/optimization/layouts.py": "81bcc2fa2930",
+  "foldq/simulation/memory_circuit.py": "3692ca668a52",
+  "foldq/simulation/bposd.py": "f046fadb9b86",
+  "foldq/experiments/exp32_sabre_ler.py": "99b1e63a9027"
+ },
+ "started": "2026-11-06 13:13:16"
+}

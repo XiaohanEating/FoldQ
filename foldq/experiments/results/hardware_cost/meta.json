@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-11-08T01:12:44.681150+00:00",
+  "sources_sha256": {
+    "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c361c55a8f0ccdab9e0b678af824754499027b9689dfc240296b4a",
+    "foldq/experiments/exp33_workpoint_ler.py": "6223f2edac118596e5467ca89b6e768f0833a67bcd83cb377365870bef63144e",
+    "foldq/experiments/hardware_cost/replay.py": "5c1fb6d0a7f9f8cbb3e62f287d6852710b75622215417d2052bef239f1c6cfcb",
+    "foldq/experiments/results/exp33/tasks.jsonl": "9569233e98ee532765f873e83fad1e41a57e239d63da7360326ddad990783abc",
+    "foldq/optimization/crosslayer_select.py": "13001ee4ef8d9a7f9cf8bca944289998a938164e5169570bf94733b788399f88",
+    "foldq/optimization/layouts.py": "81bcc2fa293013f449484b14efba9ec2efdb712e7e41ab9a2d74107ce0d87c99",
+    "foldq/routing/router.py": "3f0d1a6f51457ee6058983eacd40d2b9a5bc2e58d88e348d2d4430ccc2450942",
+    "foldq/simulation/bposd.py": "f046fadb9b868883a27773d6f22aa8b9fbdcac2fd9f257fe4e1aedd4dd0f72bf",
+    "foldq/simulation/memory_circuit.py": "8a92591dc7d71d62774536f58c0cf6d18be32ea51a29aa001d055fb4bcbb282b",
+    "HAL/foldq/experiments/exp27_hal_routing.py": "527f1559b92c8a49902d6e6c478d186351b81cde7e3d23db707b39b2e15bb77f",
+    "HAL/hal/hal.py": "e74c7e3627abd23a5e53ea22333cc5737af7df458d39a878e4d86a9a70c0d152",
+    "HAL/hal/routing/astar.py": "bd695806d0e0fa9115414d6808f987cf3d67fc93912b30e86c8afdad4960affb",
+    "HAL/hal/routing/routing_algo.py": "4d4843e7fe1da72869e0ccd3bf3b89881957255d8d1b049265d6a94b1ae61488",
+    "HAL/hal/routing/straightline.py": "d76f0af612072aef5c21d22985116b104129baaa3ac321183efb6528477ecea8",
+    "HAL/hal/settings.py": "7dffdce14ea2d6236084262ad4f49f169ea6cd4dc2741fa7f53c1f562e64da7c",
+    "HAL/hal/tier.py": "7f4fdaeb48d3aec40e12679588b8c4f530434eb431af1fdd8f471ff4f7daa58d",
+    "HAL/hal/utils/grid_utils.py": "73c8d2bdcd59c041a3b386baaa630345c90f396f6b461d5df89b4caa9de51572"
+  },
+  "python": "<original Python 3.12.11 hal environment>",
+  "python_version": "3.12.11",
+  "packages": {
+    "numpy": "2.2.6",
+    "networkx": "3.5",
+    "qldpc": "0.0.28",
+    "stim": "1.15.0",
+    "qiskit": "2.6.1",
+    "ldpc": "2.2.8"
+  },
+  "layout_seed": 0,
+  "budgets": [
+    0.02,
+    0.05
+  ],
+  "candidate_length": 6,
+  "workers": 1,
+  "sampling": "reuse exp33 only after exact accepted-edge match",
+  "hal_parameters": {
+    "max_len_argument": null,
+    "max_tsvs": 10,
+    "max_bumps": 10
+  }
+}

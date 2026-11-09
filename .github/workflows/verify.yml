@@ -1,0 +1,22 @@
+name: Check archived evidence
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-check.txt
+      - run: python -m pip install -r requirements-check.txt
+      - run: python -m tools.artifact verify
+      - run: python -m tools.artifact tables
+      - run: python -m tools.artifact costs
+      - run: python -m pytest foldq/tests/test_hardware_cost.py foldq/tests/test_hal_geometry.py -q -p no:cacheprovider

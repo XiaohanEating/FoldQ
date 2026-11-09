@@ -1,0 +1,32 @@
+{
+  "selection_codes": 105,
+  "marginal_mean_gain": 0.4086502271687425,
+  "random_mean_gain": 0.3425156174334972,
+  "marginal_wins": 103,
+  "longest_mean_gain": 0.3139166455331637,
+  "architecture": {
+    "greedy": {
+      "codes": 105,
+      "mean_swap_gain": 0.4086502271687425,
+      "mean_depth_gain": 0.5018871482757145,
+      "negative_depth_codes": [],
+      "depth_definition": "ASAP_CX1_SWAP3"
+    },
+    "sabre": {
+      "codes": 105,
+      "mean_swap_gain": 0.3952809132799066,
+      "mean_depth_gain": 0.33863136423354534,
+      "negative_depth_codes": [
+        "D4_3",
+        "GT_36_4_6"
+      ],
+      "depth_definition": "DAG_operations_SWAP_unexpanded"
+    }
+  },
+  "physical_comparisons": 48,
+  "geometry_conditions": 96,
+  "significant_by_budget": {
+    "0.02": 4,
+    "0.05": 6
+  }
+}

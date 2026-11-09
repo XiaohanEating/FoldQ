@@ -1,0 +1,527 @@
+[
+ {
+  "code": "GT_392_6_28",
+  "single_round_mean": 12450.8,
+  "exp15_mean": 12375.2
+ },
+ {
+  "code": "GT_396_8_26",
+  "single_round_mean": 12595.3,
+  "exp15_mean": 12676.4
+ },
+ {
+  "code": "GT_390_8_26",
+  "single_round_mean": 12405.2,
+  "exp15_mean": 12388.4
+ },
+ {
+  "code": "GT_384_12_24",
+  "single_round_mean": 12675.7,
+  "exp15_mean": 12596.2
+ },
+ {
+  "code": "GT_378_12_22",
+  "single_round_mean": 13005.5,
+  "exp15_mean": 12879.8
+ },
+ {
+  "code": "GT_372_10_24",
+  "single_round_mean": 12009.0,
+  "exp15_mean": 12093.2
+ },
+ {
+  "code": "GT_364_6_26",
+  "single_round_mean": 11669.5,
+  "exp15_mean": 11485.2
+ },
+ {
+  "code": "GT_366_4_28",
+  "single_round_mean": 12640.4,
+  "exp15_mean": 12580.9
+ },
+ {
+  "code": "GT_354_4_28",
+  "single_round_mean": 10536.6,
+  "exp15_mean": 10609.7
+ },
+ {
+  "code": "GT_360_12_24",
+  "single_round_mean": 11584.3,
+  "exp15_mean": 11608.4
+ },
+ {
+  "code": "GT_350_6_26",
+  "single_round_mean": 10087.3,
+  "exp15_mean": 10148.7
+ },
+ {
+  "code": "GT_348_4_26",
+  "single_round_mean": 11078.4,
+  "exp15_mean": 11110.2
+ },
+ {
+  "code": "GT_340_16_18",
+  "single_round_mean": 9831.5,
+  "exp15_mean": 9862.1
+ },
+ {
+  "code": "GT_342_8_22",
+  "single_round_mean": 10702.3,
+  "exp15_mean": 10707.2
+ },
+ {
+  "code": "GT_330_8_24",
+  "single_round_mean": 10453.4,
+  "exp15_mean": 10550.4
+ },
+ {
+  "code": "GT_336_10_22",
+  "single_round_mean": 11413.6,
+  "exp15_mean": 11265.0
+ },
+ {
+  "code": "GT_322_6_24",
+  "single_round_mean": 9824.0,
+  "exp15_mean": 9785.7
+ },
+ {
+  "code": "GT_324_8_22",
+  "single_round_mean": 10404.7,
+  "exp15_mean": 10400.7
+ },
+ {
+  "code": "GT_312_8_22",
+  "single_round_mean": 9780.0,
+  "exp15_mean": 9727.2
+ },
+ {
+  "code": "GT_318_4_26",
+  "single_round_mean": 9811.6,
+  "exp15_mean": 9851.6
+ },
+ {
+  "code": "GT_310_10_22",
+  "single_round_mean": 10271.6,
+  "exp15_mean": 10144.9
+ },
+ {
+  "code": "GT_308_6_24",
+  "single_round_mean": 9200.9,
+  "exp15_mean": 9186.6
+ },
+ {
+  "code": "GT_306_8_22",
+  "single_round_mean": 10005.9,
+  "exp15_mean": 9854.5
+ },
+ {
+  "code": "GT_300_8_22",
+  "single_round_mean": 9081.3,
+  "exp15_mean": 9043.3
+ },
+ {
+  "code": "GT_294_10_20",
+  "single_round_mean": 9750.1,
+  "exp15_mean": 9789.5
+ },
+ {
+  "code": "GT_292_18_8",
+  "single_round_mean": 9266.7,
+  "exp15_mean": 9266.8
+ },
+ {
+  "code": "GT_288_16_12",
+  "single_round_mean": 8892.8,
+  "exp15_mean": 8715.2
+ },
+ {
+  "code": "GT_288_12_18",
+  "single_round_mean": 9397.6,
+  "exp15_mean": 9481.1
+ },
+ {
+  "code": "GT_280_6_22",
+  "single_round_mean": 8941.7,
+  "exp15_mean": 8961.6
+ },
+ {
+  "code": "GT_282_4_24",
+  "single_round_mean": 8054.6,
+  "exp15_mean": 8095.3
+ },
+ {
+  "code": "GT_276_4_24",
+  "single_round_mean": 7479.0,
+  "exp15_mean": 7584.4
+ },
+ {
+  "code": "GT_270_8_20",
+  "single_round_mean": 8686.9,
+  "exp15_mean": 8604.0
+ },
+ {
+  "code": "GT_270_8_20_v2",
+  "single_round_mean": 8071.3,
+  "exp15_mean": 8064.8
+ },
+ {
+  "code": "GT_266_6_22",
+  "single_round_mean": 8100.5,
+  "exp15_mean": 8119.9
+ },
+ {
+  "code": "GT_258_4_22",
+  "single_round_mean": 7754.7,
+  "exp15_mean": 7856.8
+ },
+ {
+  "code": "GT_264_8_20",
+  "single_round_mean": 8267.4,
+  "exp15_mean": 8269.0
+ },
+ {
+  "code": "GT_254_14_16",
+  "single_round_mean": 7746.7,
+  "exp15_mean": 7766.4
+ },
+ {
+  "code": "GT_252_12_16",
+  "single_round_mean": 7871.0,
+  "exp15_mean": 7940.0
+ },
+ {
+  "code": "GT_248_10_18",
+  "single_round_mean": 9277.6,
+  "exp15_mean": 9209.5
+ },
+ {
+  "code": "GT_246_4_22",
+  "single_round_mean": 9098.3,
+  "exp15_mean": 9095.9
+ },
+ {
+  "code": "GT_240_8_18",
+  "single_round_mean": 8597.0,
+  "exp15_mean": 8654.9
+ },
+ {
+  "code": "D10_5",
+  "single_round_mean": 11667.7,
+  "exp15_mean": 11797.2
+ },
+ {
+  "code": "GT_238_6_20",
+  "single_round_mean": 8483.4,
+  "exp15_mean": 8522.6
+ },
+ {
+  "code": "GT_234_8_18",
+  "single_round_mean": 8539.8,
+  "exp15_mean": 8432.5
+ },
+ {
+  "code": "GT_234_8_18_v2",
+  "single_round_mean": 8422.7,
+  "exp15_mean": 8368.3
+ },
+ {
+  "code": "GT_228_4_20",
+  "single_round_mean": 8289.7,
+  "exp15_mean": 8279.9
+ },
+ {
+  "code": "GT_224_6_20",
+  "single_round_mean": 8193.4,
+  "exp15_mean": 8088.6
+ },
+ {
+  "code": "GT_222_4_20",
+  "single_round_mean": 7915.5,
+  "exp15_mean": 7926.1
+ },
+ {
+  "code": "GT_216_8_18",
+  "single_round_mean": 7666.4,
+  "exp15_mean": 7588.2
+ },
+ {
+  "code": "GT_210_10_16",
+  "single_round_mean": 7445.0,
+  "exp15_mean": 7283.1
+ },
+ {
+  "code": "GT_198_8_16",
+  "single_round_mean": 6682.4,
+  "exp15_mean": 6654.2
+ },
+ {
+  "code": "GT_204_4_20",
+  "single_round_mean": 7086.9,
+  "exp15_mean": 7105.8
+ },
+ {
+  "code": "GT_196_6_18",
+  "single_round_mean": 6773.5,
+  "exp15_mean": 6688.9
+ },
+ {
+  "code": "D8_5",
+  "single_round_mean": 8727.5,
+  "exp15_mean": 8676.9
+ },
+ {
+  "code": "GT_186_10_14",
+  "single_round_mean": 6355.5,
+  "exp15_mean": 6434.4
+ },
+ {
+  "code": "GT_192_8_16",
+  "single_round_mean": 6552.4,
+  "exp15_mean": 6619.3
+ },
+ {
+  "code": "GT_180_8_16",
+  "single_round_mean": 5916.9,
+  "exp15_mean": 5965.8
+ },
+ {
+  "code": "GT_182_6_18",
+  "single_round_mean": 6257.9,
+  "exp15_mean": 6142.5
+ },
+ {
+  "code": "GT_180_8_16_v2",
+  "single_round_mean": 5873.0,
+  "exp15_mean": 5929.3
+ },
+ {
+  "code": "GT_174_4_18",
+  "single_round_mean": 5801.4,
+  "exp15_mean": 5764.3
+ },
+ {
+  "code": "GT_170_16_10",
+  "single_round_mean": 5485.3,
+  "exp15_mean": 5578.3
+ },
+ {
+  "code": "GT_168_8_14",
+  "single_round_mean": 5533.8,
+  "exp15_mean": 5546.3
+ },
+ {
+  "code": "GT_162_8_14",
+  "single_round_mean": 5151.2,
+  "exp15_mean": 5149.4
+ },
+ {
+  "code": "GT_162_8_14_v2",
+  "single_round_mean": 5202.3,
+  "exp15_mean": 5146.7
+ },
+ {
+  "code": "GT_156_4_16",
+  "single_round_mean": 4968.9,
+  "exp15_mean": 5068.1
+ },
+ {
+  "code": "GT_154_6_16",
+  "single_round_mean": 4880.6,
+  "exp15_mean": 4888.2
+ },
+ {
+  "code": "GT_150_8_12",
+  "single_round_mean": 4699.6,
+  "exp15_mean": 4716.8
+ },
+ {
+  "code": "GT_146_18_4",
+  "single_round_mean": 4499.1,
+  "exp15_mean": 4471.9
+ },
+ {
+  "code": "GT_144_12_12",
+  "single_round_mean": 4552.6,
+  "exp15_mean": 4488.4
+ },
+ {
+  "code": "GT_144_12_12_v2",
+  "single_round_mean": 4492.8,
+  "exp15_mean": 4542.2
+ },
+ {
+  "code": "GT_140_6_14",
+  "single_round_mean": 4277.2,
+  "exp15_mean": 4289.1
+ },
+ {
+  "code": "GT_138_4_14",
+  "single_round_mean": 4263.2,
+  "exp15_mean": 4126.1
+ },
+ {
+  "code": "GT_126_12_10",
+  "single_round_mean": 3810.1,
+  "exp15_mean": 3807.1
+ },
+ {
+  "code": "GT_132_4_14",
+  "single_round_mean": 4098.4,
+  "exp15_mean": 4006.6
+ },
+ {
+  "code": "GT_124_10_10",
+  "single_round_mean": 3669.8,
+  "exp15_mean": 3649.6
+ },
+ {
+  "code": "GT_120_8_12",
+  "single_round_mean": 3510.4,
+  "exp15_mean": 3507.6
+ },
+ {
+  "code": "GT_114_4_14",
+  "single_round_mean": 3295.7,
+  "exp15_mean": 3278.5
+ },
+ {
+  "code": "GT_112_6_12",
+  "single_round_mean": 3226.2,
+  "exp15_mean": 3214.4
+ },
+ {
+  "code": "GT_108_8_10",
+  "single_round_mean": 3056.0,
+  "exp15_mean": 3055.5
+ },
+ {
+  "code": "GT_108_8_10_v2",
+  "single_round_mean": 3087.2,
+  "exp15_mean": 3052.4
+ },
+ {
+  "code": "GT_102_4_12",
+  "single_round_mean": 2783.1,
+  "exp15_mean": 2852.6
+ },
+ {
+  "code": "GT_98_6_12",
+  "single_round_mean": 2686.1,
+  "exp15_mean": 2702.0
+ },
+ {
+  "code": "GT_96_4_12",
+  "single_round_mean": 2568.5,
+  "exp15_mean": 2680.1
+ },
+ {
+  "code": "GT_90_8_10",
+  "single_round_mean": 2403.6,
+  "exp15_mean": 2433.9
+ },
+ {
+  "code": "GT_78_4_10",
+  "single_round_mean": 1996.5,
+  "exp15_mean": 1985.3
+ },
+ {
+  "code": "GT_84_6_10",
+  "single_round_mean": 2160.1,
+  "exp15_mean": 2108.8
+ },
+ {
+  "code": "GT_72_8_8",
+  "single_round_mean": 1754.7,
+  "exp15_mean": 1739.3
+ },
+ {
+  "code": "GT_70_6_8",
+  "single_round_mean": 1590.4,
+  "exp15_mean": 1577.1
+ },
+ {
+  "code": "D8_3",
+  "single_round_mean": 1531.6,
+  "exp15_mean": 1491.8
+ },
+ {
+  "code": "GT_66_4_10",
+  "single_round_mean": 1579.6,
+  "exp15_mean": 1597.5
+ },
+ {
+  "code": "GT_62_10_6",
+  "single_round_mean": 1404.2,
+  "exp15_mean": 1425.9
+ },
+ {
+  "code": "GT_60_8_6",
+  "single_round_mean": 1329.6,
+  "exp15_mean": 1290.6
+ },
+ {
+  "code": "GT_56_6_8",
+  "single_round_mean": 1248.1,
+  "exp15_mean": 1237.8
+ },
+ {
+  "code": "GT_54_8_6",
+  "single_round_mean": 1183.1,
+  "exp15_mean": 1179.5
+ },
+ {
+  "code": "D6_3",
+  "single_round_mean": 996.9,
+  "exp15_mean": 1016.1
+ },
+ {
+  "code": "GT_48_4_8",
+  "single_round_mean": 906.7,
+  "exp15_mean": 920.9
+ },
+ {
+  "code": "GT_36_4_6",
+  "single_round_mean": 640.6,
+  "exp15_mean": 641.0
+ },
+ {
+  "code": "GT_42_6_6",
+  "single_round_mean": 744.1,
+  "exp15_mean": 755.0
+ },
+ {
+  "code": "D4_3",
+  "single_round_mean": 572.9,
+  "exp15_mean": 554.9
+ },
+ {
+  "code": "GT_30_4_6",
+  "single_round_mean": 468.1,
+  "exp15_mean": 490.0
+ },
+ {
+  "code": "GT_24_4_4",
+  "single_round_mean": 335.4,
+  "exp15_mean": 343.3
+ },
+ {
+  "code": "GT_28_6_4",
+  "single_round_mean": 407.2,
+  "exp15_mean": 407.1
+ },
+ {
+  "code": "GT_14_6_2",
+  "single_round_mean": 190.1,
+  "exp15_mean": 189.9
+ },
+ {
+  "code": "GT_18_4_4",
+  "single_round_mean": 227.3,
+  "exp15_mean": 231.3
+ },
+ {
+  "code": "GT_12_4_2",
+  "single_round_mean": 110.1,
+  "exp15_mean": 105.6
+ }
+]

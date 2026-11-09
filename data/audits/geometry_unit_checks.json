@@ -1,0 +1,182 @@
+{
+  "hand_cases": [
+    {
+      "label": "endpoint",
+      "a": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "b": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "expected": true,
+      "current": true
+    },
+    {
+      "label": "separate collinear",
+      "a": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "b": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -2,
+          0,
+          0
+        ]
+      ],
+      "expected": false,
+      "current": false
+    },
+    {
+      "label": "diagonal crossing",
+      "a": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "b": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "expected": true,
+      "current": true
+    },
+    {
+      "label": "different faces",
+      "a": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "b": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "expected": false,
+      "current": false
+    },
+    {
+      "label": "via touching",
+      "a": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "b": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "expected": true,
+      "current": true
+    },
+    {
+      "label": "point in segment",
+      "a": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "b": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ]
+      ],
+      "expected": true,
+      "current": true
+    }
+  ],
+  "exhaustive_counts": {
+    "tests": 10000
+  },
+  "examples": []
+}

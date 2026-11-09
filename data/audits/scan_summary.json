@@ -1,0 +1,38 @@
+{
+  "conditions": 96,
+  "edge_sets_match": 96,
+  "invalid_conditions": [],
+  "orientation_changed": [],
+  "collision_pairs": 0,
+  "k_aggregates": [
+    {
+      "k": 0.01,
+      "selected": 29,
+      "routed": 25,
+      "full_codes": 22,
+      "mean_gain_kept": 0.06457815803758171
+    },
+    {
+      "k": 0.02,
+      "selected": 52,
+      "routed": 32,
+      "full_codes": 15,
+      "mean_gain_kept": 0.07062244472460046
+    },
+    {
+      "k": 0.05,
+      "selected": 129,
+      "routed": 60,
+      "full_codes": 9,
+      "mean_gain_kept": 0.11180694328851533
+    },
+    {
+      "k": 0.1,
+      "selected": 259,
+      "routed": 48,
+      "full_codes": 0,
+      "mean_gain_kept": 0.07765591482748276
+    }
+  ],
+  "raw_pair_mismatch_conditions": []
+}

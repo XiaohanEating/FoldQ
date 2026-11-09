@@ -1,0 +1,33 @@
+{
+ "config": {
+  "audit_codes": [
+   "GT_12_4_2"
+  ],
+  "fixed_ps": [
+   0.0001,
+   0.0003,
+   0.001
+  ],
+  "k_pct": 0.1,
+  "alpha": 1.5,
+  "shots": 3000,
+  "n_rounds": 3,
+  "pm_ratio": 0.5,
+  "x_detectors_main": false
+ },
+ "part": "audit",
+ "python": "3.12.11",
+ "stim": "1.15.0",
+ "ldpc": "2.2.8",
+ "source_sha256_12": {
+  "foldq/codes/hal_all_codes.py": "1cd5d6a5a0c3",
+  "foldq/codes/gf2.py": "259995e98084",
+  "foldq/routing/router.py": "f9338e59eb79",
+  "foldq/optimization/crosslayer_select.py": "0383d52b8bc0",
+  "foldq/optimization/layouts.py": "81bcc2fa2930",
+  "foldq/simulation/memory_circuit.py": "c12ca557a5df",
+  "foldq/simulation/bposd.py": "f046fadb9b86",
+  "foldq/experiments/exp26_ler_audit.py": "20b80f52f271"
+ },
+ "started": "2026-11-03 23:05:28"
+}
